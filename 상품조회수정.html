@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{ margin: 0; padding: 0; }
+
+        * { font-family: "SB 어그로","sans-serif"; font-weight: lighter; }
+        a{ font-weight: lighter; font-size: 12pt; text-decoration: none; color: #232323; }
+        ul{list-style: none;}
+
+        /*---header--- 수정 필요*/
+        header{ min-width: 1024px; padding: 0 20px; display: flex; justify-content: space-between; background-color: #F25774; height: 2.5rem; word-break:keep-all; align-items: center; }
+        header a { font-size: 9pt; }
+        header div{ min-width:fit-content; }
+        
+        header div:nth-child(1) a:only-child{ font-weight: bold; font-size: 13pt; color: #fff; }
+        header div:nth-child(2) a:first-child { border: 1px solid; border-radius: 1rem; color: #fff; padding: 0.15rem 0.35rem; font-size: 9pt;}
+        /*--header 끝--*/
+
+        /*---nav---*/
+        nav {width: 200px; border-right: solid #909090 1px; position: fixed; height: 100%;}
+        nav ul:first-child{margin-top: 82px;}
+        nav ul{ margin:0px; padding: 0; height: 100%; line-height: 2.5rem; }
+        nav li{ margin-left: 1rem; }
+        nav ul>li a{ font-size: 14pt; }
+        nav ul>li>ul>li a{ font-size: 11pt; }
+        /*--nav 끝--*/
+        
+        section{ margin-left: 14.8rem; }
+        article{ display: flex;}
+        article div{ border: solid 1px #909090; width: 820px; }
+        section article div dl:nth-child(1){ font-size: 15pt; border-bottom: solid #909090 1px; padding-bottom: 1.22rem;}
+        article div dl {display: flex; align-items: center;}
+        article div dd>span{color: #F25774; font-family: "SB어그로", "sans-serif"; font-weight: bold;}
+
+        article:nth-child(3) div{width: 1640px; margin-top: 2rem;}
+        article:nth-child(3) div>dl{ justify-content: center;}
+
+        .itemList{width: 1640px; text-align: center; border-collapse: collapse;}
+        .itemList tr:first-child {background-color: #F4F4F4;}
+        .itemList tr,td{border: solid 1px #909090; padding: 10px;}
+        .itemList tr a{background-color: #F25774; border-radius: 0.55rem; padding: 0.25rem 0.45rem; font-size: 9pt; color: #fff; }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div><a herf="#">RABBIT FORM</a></div>
+        <div>    
+            <a href="#">내정보</a>
+            <a href="#">로그아웃</a>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">상품관리</a>
+                <ul>
+                    <li><a href="#">상품조회/관리</a></li>
+                    <li><a href="#">상품등록</a></li>
+                </ul>
+            </li>
+            <li><a href="#">판매관리</a></li>
+            <li><a href="#">문의관리</a></li>
+        </ul>
+    </nav>
+    
+    <section>
+        <h2>상품조회/수정</h2>
+        <article>
+        <div>
+            <dl>
+                <dd>주문/배송</dd>
+            </dl>
+            <dl>
+                <dd>신규주문</dd>
+                <dd><span>0</span>건</dd>
+            </dl>
+            <dl>
+                <dd>배송준비</dd>
+                <dd><span>0</span>건</dd>
+            </dl>
+            <dl>
+                <dd>배송중</dd>
+                <dd><span>0</span>건</dd>
+            </dl>
+            <dl>
+                <dd>배송완료</dd>
+                <dd><span>0</span>건</dd>
+            </dl>
+        </div>
+        <div>
+            <dl>
+                <dd>클레임</dd> 
+            </dl>
+            <dl>
+                <dd>취소요청</dd>
+                <dd><span>0</span>건</dd>
+            </dl>
+            <dl>
+                <dd>반품요청</dd>
+                <dd><span>0</span>건</dd>
+            </dl>
+            <dl>
+                <dd>교환요청</dd>
+                <dd><span>0</span>건</dd>
+            </dl>
+        </div>
+        </article>
+
+        <article>
+            <div>
+                <dl>
+                    <dd>전체</dd> <dd>판매중</dd> <dd>판매종료</dd> <dd>품절</dd> <dd>판매금지</dd>
+                </dl>
+                <dl>
+                    <dd><span>0</span>건</dd>
+                    <dd><span>0</span>건</dd>
+                    <dd><span>0</span>건</dd>
+                    <dd><span>0</span>건</dd>
+                    <dd><span>0</span>건</dd>
+            </div>
+        </article>
+
+        <h2>상품목록</h2>
+        <article>
+            <table class="itemList">
+                <tr>
+                    <td><input type="checkbox" name="list-itemAll"></td>
+                    <td>수정</td>
+                    <td>삭제</td>
+                    <td>상품번호</td>
+                    <td>키워드</td>
+                    <td>상품명</td>
+                    <td>판매상태</td>
+                    <td>재고수량</td>
+                    <td>판매가</td>
+                </tr>
+                <!--예시-->
+                <tr>
+                    <td><input type="checkbox" name="list-item01"></td>
+                    <td><a href="#">수정</a></td>
+                    <td><a href="#">삭제</a></td>
+                    <td>oO1</td>
+                    <td>#아클레온 #세럼</td>
+                    <td>아클레온 세보덤솔루션 수분세럼 올인원 모공앰플 세럼 55g</td>
+                    <td>판매중</td>
+                    <td>999</td>
+                    <td>판매가</td>
+                </tr>
+            </table>
+        </article>
+    </section>
+    
+</body>
+
+
+</html>
