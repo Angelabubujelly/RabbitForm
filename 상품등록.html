@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/공용.css">
+    <style>
+        article:first-child {border: solid, 1px, #909090;}
+        article div>p>a{padding: 10px;}
+        article div>p>a>span{color: #F25774;}
+
+        article h2+div, article>div{width: 1640px; border: #909090 solid 1px; margin-bottom: 50px;}
+
+        article>div>hr+div{padding: 10px;}
+        article>div>div>ul{display: flex;}
+        article>div>div>ul>li{border: solid #909090 1px; padding: 7px; width: 100px; text-align: center;}
+        article>div>div>ul>li:first-child{border-radius: 9px 0 0 0;}
+        article>div>div>ul>li:last-child{border-radius: 0 9px 0 0;}
+        article>div>div>ul>li{display: inline-block;}
+        article>div>div>ul>li>a{font-size: 12pt;}
+        article>div>div>ul+div{padding: 20px; border: solid #909090 1px;}
+        
+        input[type=radio]{margin-left: 20px; margin-right: 5px; accent-color: #F25774; vertical-align: middle;}
+
+        div>p {padding: 10px;}
+        input[name=proprietary_name]{width: 80%;}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div><a herf="#">RABBIT FORM</a></div>
+        <div>    
+            <a href="#">내정보</a>
+            <a href="#">로그아웃</a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">상품관리</a>
+                <ul>
+                    <li><a href="#">상품조회/관리</a></li>
+                    <li><a href="#">상품등록</a></li>
+                </ul>
+            </li>
+            <li><a href="#">판매관리</a></li>
+            <li><a href="#">문의관리</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <article>
+            <h2>상품등록</h2>
+            <div>
+                <p>카테고리 선택 <a><span>필수</span></a></p>
+                <hr>
+                <div>
+                    <ul>
+                        <li><a>미용</a></li>
+                        <li><a>관람예술</a></li>
+                        <li><a>체험예술</a></li>
+                    </ul>
+                    <div>
+                        <input type="radio" name="select" value="1" checked>클렌징
+                        <input type="radio" name="select" value="2">스킨&로션
+                        <input type="radio" name="select" value="3">크림&에센스
+                        <input type="radio" name="select" value="4">선크림
+                        <input type="radio" name="select" value="5">워시
+                        <input type="radio" name="select" value="6">피부미용
+                        <input type="radio" name="select" value="7">색조화장품
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div>
+                <p>상품명 <a id=""><span>필수</span></a></p>
+                <hr>
+                <p><input name="proprietary_name"> <a><span>0</span>/100</a></p>
+            </div>
+        </article>
+    </section>
+</body>
+
+</html>

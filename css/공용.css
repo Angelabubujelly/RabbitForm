@@ -1,0 +1,24 @@
+*{margin: 0; padding: 0; font-family: 'SBAggroL';}
+
+/*font*/
+@font-face {font-family: 'SBAggroL';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'SBAggroM';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'SBAggroB';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff'); font-weight: normal;font-style: normal;}
+
+a {font-weight: lighter; font-size: 11pt; text-decoration: none; color: #232323;}
+ul li {list-style: none;}
+
+header{ min-width: 1024px; padding: 0 20px; display: flex; justify-content: space-between; background-color: #F25774; height: 2.5rem; word-break:keep-all; align-items: center; }
+header a { font-size: 9pt; }
+header div{ min-width:fit-content; }
+header div:nth-child(1) a:only-child{ font-weight: bold; font-size: 13pt; color: #fff; }
+header div:nth-child(2) a:first-child { border: 1px solid; border-radius: 1rem; color: #fff; padding: 0.15rem 0.35rem; font-size: 9pt;}
+
+nav {width: 200px; border-right: solid #909090 1px; position: fixed; height: 100%;}
+nav ul:first-child{margin-top: 2rem;}
+nav ul{ margin:0px; padding: 0; height: 100%; line-height: 2.5rem; }
+nav li{ margin-left: 1rem; }
+nav ul>li a{ font-size: 14pt; }
+nav ul>li>ul>li a{ font-size: 11pt; }
+
+section{ margin-left: 14.8rem; margin-top: 2rem; }
