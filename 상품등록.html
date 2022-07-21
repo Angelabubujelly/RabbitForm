@@ -24,8 +24,17 @@
         
         input[type=radio]{margin-left: 20px; margin-right: 5px; accent-color: #F25774; vertical-align: middle;}
 
-        div>p {padding: 10px;}
-        input[name=proprietary_name]{width: 80%;}
+        div>p{padding: 10px;}
+        div>p>span{border: solid #F25774 1px; border-radius: 10px; padding: 0px 5px; font-size: 9pt; color: #F25774;}
+        div>p>a{font-size: 9pt; color: #909090;}
+        article>div p:nth-child(3) a{border: solid #909090 1px; background-color: #F1F1F1; padding: 6px 10px;}
+        section article:nth-child(3)>div>p>a{border: solid #909090 1px; background-color: #F1F1F1; padding: 5.5px 10px;}
+
+
+        input[type=text]{width: 150px; outline: none; border: solid #909090 1px; padding: 5.3px;}
+
+
+
     </style>
 </head>
 
@@ -54,7 +63,7 @@
         <article>
             <h2>상품등록</h2>
             <div>
-                <p>카테고리 선택 <a><span>필수</span></a></p>
+                <p>카테고리 선택 <span>필수</span></p>
                 <hr>
                 <div>
                     <ul>
@@ -76,9 +85,17 @@
         </article>
         <article>
             <div>
-                <p>상품명 <a id=""><span>필수</span></a></p>
+                <p>상품명 <span>필수</span><a>판매 상품과 직접 관련이 없는 상품명, 스팸성 키워드 입력 시 관리자에 의해 판매 금지될 수 있습니다.</a></p>
                 <hr>
-                <p><input name="proprietary_name"> <a><span>0</span>/100</a></p>
+                <p><input type="text" name="proprietary_name"><a><span>0</span>/100</a></p>
+            </div>
+        </article>
+        <article>
+            <div>
+                <p>판매가 <span>필수</span></p>
+                <hr>
+                <p>판매가 <input type="text" name=""><a><span>원</span></a></p>
+                <p>할인 <a>설정</a><a>설정안함</a></p>
             </div>
         </article>
     </section>
