@@ -54,6 +54,10 @@
         .smallNavCheck{color: #f25774; font-family: 'SBAggroB';} /* 선택된 카테고리 */
         .smallNavCheck>hr{width: 80%; margin: 0 auto; border-color: #f25774;}
 
+        /* 인디갤러리 카테고리 */
+        #indieExhibitionNav>div{font-family: 'SBAggroL'; font-size: 20px;}
+        #indieExhibitionNav>.smallNavCheck{font-family: 'SBAggroM';}
+
         /* 지역선택 */
         .areaChoice{margin: 40px 0 40px; display: flex; justify-content: center; align-items: center;}
         .areaChoice>div:nth-child(1){margin-right: 22px; font-size: 15px;}
@@ -199,11 +203,18 @@
         <div></div>
     </article>
     <section>
+        <!-- 관람예술 카테고리 -->
         <article class="smallNav">
             <div>EXHIBITION</div>
             <div>ACT</div>
-            <div class="smallNavCheck">MUSICAL<hr></div>
-            <div>INDIE EXHIBITION</div>
+            <div>MUSICAL</div>
+            <div class="smallNavCheck">INDIE EXHIBITION<hr></div>
+        </article>
+        <!-- 인디카테고리 -->
+        <article id="indieExhibitionNav" class="smallNav">
+            <div>미니갤러리</div>
+            <div>상영회</div>
+            <div class="smallNavCheck">미니콘서트</div>
         </article>
         <article class="areaChoice">
             <div>지역선택</div>
@@ -211,9 +222,6 @@
         </article>
         <!-- 연극, 뮤지컬 컨텐츠 -->
         <article id="actMusicalContent">
-            <div class="subject">
-                <p>인기순<img src="img/arrowBottomPink.png" alt="정렬버튼"></p>
-            </div>
             <div class="contentB">
                 <a href="">
                     <div>
