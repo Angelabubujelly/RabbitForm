@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav id="navi">
+            <div><a href="#" class="logo"><img src="img/logo.png" alt="logoImg" id="logoImg"></a></div>
+            <ul>
+                <li><a href="#" class="menu">소개</a></li>
+                <li><a href="#" class="menu">미용</a></li>
+                <li><a href="#" class="menu">예술</a></li>
+                <li><a href="#" class="menu">놀이</a></li>
+                <li><a href="#" class="menu">게시판</a></li>
+                <li><a href="#" class="menu" id="loginBtn"><button type="button" id="log">로그인</button></a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <section>
+    <article id="actMusicalContent">
+        <div class="contentB">
+            <a href="">
+                <div>
+                    <img src="img/img1.jpg" alt="뮤지컬 빨래">
+                </div>
+                <p>2022 보령해양머드 박람회</p>
+                <p>22.07.16 - 22.08.15</p>
+            </a>
+            <a href="">
+                <div>
+                    <img src="img/img2.jpg" alt="뮤지컬 비더슈탄트">
+                </div>
+                <p>궁궐야행, 창경국</p>
+                <p>19.01.25 - 22.12.31</p>
+            </a>
+            <a href="">
+                <div>
+                    <img src="img/img3.jpg" alt="뮤지컬 볼륨업">
+                </div>
+                <p>포항국제 불빛 축제</p>
+                <p>22.09.23 - 22.09.25</p>
+            </a>
+            <a href="">
+                <div>
+                    <img src="img/img4.jpg" alt="뮤지컬 시데레우스">
+                </div>
+                <p>세계 풍기 인삼 엑스포</p>
+                <p>22.09.30 - 22.10.23</p>
+            </a>
+            <a href="">
+                <div>
+                    <img src="img/img5.jpg" alt="뮤지컬 시데레우스">
+                </div>
+                <p>인천 펜타포트 락 페스티벌</p>
+                <p>22.08.05 - 22.08.07</p>
+            </a>
+        </div>
+        
+    </article>
+
+
+<article class="frmFrame">
+    <form name="frm" id="frm" method="post" action="/portal/subMain/perform.do">
+        <input type="hidden" name="pageIndex" value="1">
+        <input type="hidden" name="searchSort" id="searchSort" value="2">
+            <div class="inner">
+                <div class="schedule_date">
+                    <a href="javascript:void(0);" class="arrow prev"><img src="img/leftPAW.png"></a>
+                    <div class="thisDate">
+                        <input type="text" name="sdate" id="period1" class="datepicker hasDatepicker" readonly="readonly" value="2022-07-21">
+                    </div>
+                    <a href="javascript:void(0);" class="arrow next"><img src="img/rightPAW.png"></a>
+                </div>
+                <div class="schedule_check">
+                    <div class="categoryBtn">
+                        <p class="title">구분</p>
+                            <div>
+                                <input type="checkbox" name="searchTypeData" class="searchType_all" id="hall_ck1" value="ALL" checked="checked">
+                                <label for="hall_ck1">전체</label>
+                                <input type="checkbox" name="searchTypeData" class="searchType" id="hall_ck2" value="1001,1002,1003">
+                                    <label for="hall_ck2">축제 </label>
+                                <input type="checkbox" name="searchTypeData" class="searchType" id="hall_ck3" value="1004,1005,1006,">
+                                    <label for="hall_ck2">행사 </label>
+                            </div>
+                    </div>
+                    <div class="write">
+                        <input type="text" name="searchWrd" id="searchWin" placeholder="검색어를 입력하세요" value=""size=43>
+                            <button type="image" onclick="fn_search('1')"><img src="img/iconMG.png"></button>
+                    </div>
+                </div>
+            </div>
+
+    </form>
+</article>
+
+  
+
+<article id="exhArtContent">
+
+    <div class="subject">
+        <span><a href="javascript:void(0);" onclick="fn_SearchSort('2');" id="pop">인기순</a></span>
+        <span class="active"><a href="javascript:void(0);" onclick="fn_SearchSort('1');" id="latest">최신순</a></span>
+    </div>
+
+
+
+    <div class="contentB">
+        <a href="">
+            <div>
+                <img src="img/img1.jpg" alt="뮤지컬 빨래">
+            </div>
+            <p>2022 보령해양머드 박람회</p>
+            <p>22.07.16 - 22.08.15</p>
+        </a>
+        <a href="">
+            <div>
+                <img src="img/img2.jpg" alt="뮤지컬 비더슈탄트">
+            </div>
+            <p>궁궐야행, 창경국</p>
+            <p>19.01.25 - 22.12.31</p>
+        </a>
+        <a href="">
+            <div>
+                <img src="img/img3.jpg" alt="뮤지컬 볼륨업">
+            </div>
+            <p>포항국제 불빛 축제</p>
+            <p>22.09.23 - 22.09.25</p>
+        </a>
+        <a href="">
+            <div>
+                <img src="img/img4.jpg" alt="뮤지컬 시데레우스">
+            </div>
+            <p>세계 풍기 인삼 엑스포</p>
+            <p>22.09.30 - 22.10.23</p>
+        </a>
+        <a href="">
+            <div>
+                <img src="img/img5.jpg" alt="뮤지컬 시데레우스">
+            </div>
+            <p>인천 펜타포트 락 페스티벌</p>
+            <p>22.08.05 - 22.08.07</p>
+        </a>
+    </div>
+    <article id="actMusicalContent">
+        <div class="contentB">
+            <a href="">
+                <div>
+                    <img src="img/img1.jpg" alt="뮤지컬 빨래">
+                </div>
+                <p>2022 보령해양머드 박람회</p>
+                <p>22.07.16 - 22.08.15</p>
+            </a>
+            <a href="">
+                <div>
+                    <img src="img/img2.jpg" alt="뮤지컬 비더슈탄트">
+                </div>
+                <p>궁궐야행, 창경국</p>
+                <p>19.01.25 - 22.12.31</p>
+            </a>
+            <a href="">
+                <div>
+                    <img src="img/img3.jpg" alt="뮤지컬 볼륨업">
+                </div>
+                <p>포항국제 불빛 축제</p>
+                <p>22.09.23 - 22.09.25</p>
+            </a>
+            <a href="">
+                <div>
+                    <img src="img/img4.jpg" alt="뮤지컬 시데레우스">
+                </div>
+                <p>세계 풍기 인삼 엑스포</p>
+                <p>22.09.30 - 22.10.23</p>
+            </a>
+            <a href="">
+                <div>
+                    <img src="img/img5.jpg" alt="뮤지컬 시데레우스">
+                </div>
+                <p>인천 펜타포트 락 페스티벌</p>
+                <p>22.08.05 - 22.08.07</p>
+            </a>
+        </div>
+        
+    </article>
+    <article id="actMusicalContent">
+        <div class="contentB">
+            <a href="">
+                <div>
+                    <img src="img/img1.jpg" alt="뮤지컬 빨래">
+                </div>
+                <p>2022 보령해양머드 박람회</p>
+                <p>22.07.16 - 22.08.15</p>
+            </a>
+            <a href="">
+                <div>
+                    <img src="img/img2.jpg" alt="뮤지컬 비더슈탄트">
+                </div>
+                <p>궁궐야행, 창경국</p>
+                <p>19.01.25 - 22.12.31</p>
+            </a>
+            <a href="">
+                <div>
+                    <img src="img/img3.jpg" alt="뮤지컬 볼륨업">
+                </div>
+                <p>포항국제 불빛 축제</p>
+                <p>22.09.23 - 22.09.25</p>
+            </a>
+            <a href="">
+                <div>
+                    <img src="img/img4.jpg" alt="뮤지컬 시데레우스">
+                </div>
+                <p>세계 풍기 인삼 엑스포</p>
+                <p>22.09.30 - 22.10.23</p>
+            </a>
+            <a href="">
+                <div>
+                    <img src="img/img5.jpg" alt="뮤지컬 시데레우스">
+                </div>
+                <p>인천 펜타포트 락 페스티벌</p>
+                <p>22.08.05 - 22.08.07</p>
+            </a>
+        </div>
+        
+    </article>
+</article>
+</section>
+
+<!-- 페이지 넘버링 -->
+<article id="pageCount">
+    <div>
+        <a href=""><<</a>
+        <a href=""><</a>
+    </div>
+    <p><a href="" id="pageClick">1</a><a href="">2</a><a href="">3</a></p>
+    <div>
+        <a href="">></a>
+        <a href="">>></a>
+    </div>
+</article>
+</body>
+</html>
