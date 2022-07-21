@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/공용copy.css">
+    <link rel="stylesheet" href="css/공용.css">
     <style>
-        
+        .layout nav>ul>li>ul>li:first-of-type{color: #F25774;}
+        section>div{display: flex; justify-content: center;}
+        section>div>a{display: block; width: 140px; background-color: #F25774; color: #fff; line-height: 40px; text-align: center; vertical-align: middle;}
+        section>div>a:last-child{margin-left: 10px;}
+
         article>div{border: solid #909090 1px; margin-bottom: 40px; position: relative;}
         article>div>p:first-child{font-size: 13pt;}
         article>div>p>span{padding: 1.5px 6px; border: solid #F25774 1px; border-radius: 8px; font-size: 8pt; color: #F25774; vertical-align: middle;}
@@ -58,7 +62,7 @@
         section article:nth-of-type(8)>div>p:nth-of-type(3)>a input[type=button]{width: 100px; height: 25px; border: solid #909090 1px;}
         section article:nth-of-type(8)>div>p:nth-of-type(3)>a{position: absolute; left: 146px;}
         section article:nth-of-type(8)>div>p:nth-of-type(3){font-size: 8pt; color: #909090; margin-bottom: 15px;}
-
+       
     </style>
 </head>
 
@@ -84,7 +88,7 @@
             </ul>
        </nav>
        <section>
-            <h3>상품등록</h3>
+            <h3>상품수정</h3>
             <article>
                 <div>
                     <p>카테고리 선택 <span>필수</span></p>
@@ -167,10 +171,26 @@
                     <p>배송비 <a><input type="text" placeholder="숫자만 입력"><span>원</span></a></p>
                     <p>제주/도서산간 추가배송비<a><input type="button" value="설정"><input type="button" value="설정안함"></a></p>
                 </div>
-            </article>
-       </section>
-
+            </article>s
+            <div>
+                <a>취소</a>
+                <a>저장하기</a>
+            </div>
+        </section>
     </div>
+    <footer>
+        <div>
+            <div>
+                <span>RABBIT FORM</span>
+            </div>
+            <div>
+                <a> 상호명 : RABBIT FORM
+                    <br>RABBIT FORM은 개별 판매자가 상품을 판매하는 오픈마켓이며 RABBIT FORM은 통신판매 중개자로 거래 당사자가 아니므로, 판매자가 등록한 상품정보 및 거래 등에 대해 일체 책임을 지지 않습니다.
+                    <br>단, RABBIT FORM이 판매자로 등록 판매한 상품의 경우는 판매자로서 책임을 부담합니다. &emsp; Copyright © 2022 RABBIT FORM. All rights reserved.
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
