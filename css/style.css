@@ -26,7 +26,6 @@ header>hr  {border-color: #C7C7C7; border-top: 0px; margin: 0px;}
 @font-face {font-family: 'SBAggroM'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff'); font-weight: normal; font-style: normal;}
 @font-face {font-family: 'SBAggroB'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff'); font-weight: normal; font-style: normal;}
 *{padding: 0; margin: 0; color: #404040; font-family: 'SBAggroL';}
-section{width: 70vw; margin: 0 auto;}
 a{text-decoration: none;}
 .scroll{display: flex; justify-content: center; margin-top: 80px;}
 .contentA>a>img{width:254px; height: 360px; margin-right: 16px; border-radius: 18px; box-shadow: 2px 2px 6px 2px rgba(219, 219, 219);}
@@ -63,6 +62,12 @@ input[type="text"]{outline:none;} /*인풋창 테두리 제거*/
 
 
 /* 체험예술 목록 */
+.exhArtContent {display: flex; width: 100%;}
+.contentC {display: flex; margin-top: 30px;}
+.contentC>div>span>a{border-radius: 20px; padding: 6px 17px; 
+    text-decoration: none;background-color: #F25774;color: white; }
+
+
 .contentB{display: flex;margin-bottom: 50px; /*justify-content: space-between;*/ justify-content:center; margin-top: 30px; }
 .contentB>a{width: 14vw;margin: 0 20px;}
 .contentB>a>div:nth-child(1){height: 19.2vw; margin-bottom: 15px; border-radius: 20px;
@@ -77,8 +82,6 @@ input[type="text"]{outline:none;} /*인풋창 테두리 제거*/
 .contentB>a>div:nth-child(4)>p:nth-child(1)>span{font-size: 13px;} /* 별점수 */
 .contentB>a>div:nth-child(4)>p:nth-child(2){color: #f25774; font-size: 18px; font-family: 'SBAggroM';} /* 가격 */
 
-.subject {display: flex; width: 100%;}
-#latest, #pop{border-radius: 20px; padding: 6px 17px; text-decoration: none;background-color: #F25774;color: white;}
 
  
 
