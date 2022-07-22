@@ -7,33 +7,40 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/공용.css">
     <style>
-        .layout nav>ul>li>ul>li:nth-last-of-type(1){color: #F25774;}
-        article>div{border: solid #909090 1px; margin-bottom: 40px; position: relative;}
+        .layout nav>ul>li>ul>li:first-of-type{color: #F25774;}
+        article>div{border: solid #909090 1px; margin-bottom: 40px;}
         article>div>p:first-child{font-size: 13pt;}
-        article>div:nth-of-type(1)>p:nth-of-type(1)>span{padding: 1.5px 6px; border: solid #F25774 1px; border-radius: 8px; font-size: 8pt; color: #F25774; vertical-align: middle;}
+        article>div:nth-of-type(1)>p:nth-of-type(1)>span{padding: 2px 6px; border: solid #F25774 1px; border-radius: 8px; font-size: 8pt; color: #F25774; vertical-align: middle;}
         article>div>p>a>span{color: #F25774; font-weight: bold;}
         article>div>div>p>span{color: #F25774; font-weight: bold;}
-        article{position: relative;}
         article p{padding: 15px;}
         
-        article:nth-of-type(1){display: flex;}
+        
+        article:nth-of-type(1){display: flex; overflow: hidden;}
         article:nth-of-type(1)>div{width: 100%;}
         article:nth-of-type(1)>div:last-of-type{border-left: none;}
-        article:nth-of-type(1)>div>hr:nth-of-type(2)~p{position: relative; left: 120px;}
-        article:nth-of-type(1)>div:nth-of-type(2)>hr~p{position: relative; left: 120px;}
+        article:nth-of-type(1)>div>hr:nth-of-type(2)~p{margin-left: 120px;}
+        article:nth-of-type(1)>div:nth-of-type(2)>hr~p{margin-left: 120px;}
         
-        article:nth-of-type(2)>div{display: flex; justify-content: center;}
+        article:nth-of-type(2)>div{display: flex; justify-content: center; overflow: hidden;}
         article:nth-of-type(2)>div>div{padding: 20px; text-align: center;}
 
+        article:nth-of-type(3)>div{border: none;}
+        article:nth-of-type(3)>div:first-of-type{display: table; width: 100%; border: solid #909090 1px; text-align: center;}
         article:nth-of-type(3)>div>div:first-of-type{background-color: #F4F4F4;}
-        article:nth-of-type(3)>div>div{display: flex; justify-content:space-between; border-bottom: solid #909090 1px;}
-        article:nth-of-type(3)>div>div:nth-of-type(2)>div{border-left: solid #909090 1px; padding: 2.5px 10px;}
-        article:nth-of-type(3)>div>div:nth-of-type(2)>div:first-of-type{width: 0px;}
-        article:nth-of-type(3)>div>div:nth-of-type(2)>div{width: 100px;}
-
-
-        
-
+        article:nth-of-type(3)>div>div:nth-of-type(2)>div{border-right: solid #909090 1px; border-top: solid #909090 1px;;}
+        article:nth-of-type(3)>div>div{display: table-row;}
+        article:nth-of-type(3)>div>div>div{display: table-cell; padding: 8px 16px;}
+        article:nth-of-type(3)>div>div>div:first-of-type{width: 20px;}
+        article:nth-of-type(3)>div>div>div:nth-of-type(2){width: 5%;}
+        article:nth-of-type(3)>div>div>div:nth-of-type(3){width: 5%;}
+        article:nth-of-type(3)>div>div>div:nth-of-type(4){width: 10%;}
+        article:nth-of-type(3)>div>div>div:nth-of-type(5){width: 20%;}
+        article:nth-of-type(3)>div>div>div:nth-of-type(6){width: 30%;}
+        article:nth-of-type(3)>div>div>div:nth-of-type(7){width: 10%;}
+        article:nth-of-type(3)>div>div>div:nth-of-type(8){width: 10%;}
+        article:nth-of-type(3)>div>div>div span{padding: 2px 6px; background-color: #F25774; color: #fff; border-radius: 8px; font-size: 8pt; vertical-align: middle;}
+        input[type=checkbox]{width: 18px; height: 18px; vertical-align: middle;}
 
     </style>
 </head>
@@ -118,9 +125,9 @@
                     </div>
                     <div>
                         <div><input type="checkbox"></div>
-                        <div>수정</div>
-                        <div>삭제</div>
-                        <div>상품번호</div>
+                        <div><a href="#"><span>수정</span></a></div>
+                        <div><a href="#"><span>삭제</span></a></div>
+                        <div>o01</div>
                         <div>키워드</div>
                         <div>상품명</div>
                         <div>판매상태</div>

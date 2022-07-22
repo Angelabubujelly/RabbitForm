@@ -1,13 +1,13 @@
-*{margin: 0; padding: 0; font-family: 'SBAggroL'; color: #404040;}
+*{margin: 0; padding: 0; font-family: 'SBAggroL'; color: #404040; word-break: keep-all;}
 
 /*font*/
 @font-face {font-family: 'SBAggroL';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff');font-weight: normal;font-style: normal;}
 @font-face {font-family: 'SBAggroM';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');font-weight: normal;font-style: normal;}
 @font-face {font-family: 'SBAggroB';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff'); font-weight: normal;font-style: normal;}
 
-a,p,span{ font-size: 11pt; text-decoration: none;}
+a,p,span{ font-size: 11pt; text-decoration: none;  overflow: hidden;}
 ul li {list-style: none;}
-input{outline: none; border: none;}
+input{outline: none; border: none; accent-color: #F25774; cursor: pointer;}
 
 header{display: flex; justify-content: space-between; align-items: center; padding: 0px 20px; height: 2.5rem; background-color: #F25774;  word-break:keep-all;}
 header>div>a{min-width:fit-content; font-size: 9pt; color: #fff;}
