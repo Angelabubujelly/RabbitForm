@@ -1,0 +1,23 @@
+@font-face {font-family: 'SBAggroL';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'SBAggroM';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'SBAggroB';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff'); font-weight: normal;font-style: normal;}
+*{margin: 0; padding: 0;font-family: 'SBAggroL'; color: #909090; }
+span{font-size: 2px;}
+p {color: #232323;}
+ul {list-style:none;}
+select>option {color: #232323;}
+/* header */
+.logo{display: flex; align-items: center; margin: 30px;}
+#logoImg{width: 300px; display: flex; margin:0px;}
+.bigTitle {font-size: 40px; font-family: 'SBAggroB';text-align: center; margin: 40px 0;}
+/* container */
+.bigTitle {color: #232323;}
+#entire{padding: 0;}
+
+#sending {width: 100px; height: 42.5px; color: white;background-color: #F25774; border: 1px solid white; border-radius: 7px}
+#signUp{display: flex; justify-content: center; margin-top: 20px;}
+#adressCom{margin-top: 15px;}
+#ifUHave {margin-top: 100px; margin-bottom: 100px;}
+
+.btn-xlarge{width: 172px; height: 66px;display: flex;align-items: center; justify-content: center;border: white; padding: 18px 28px; font-size: 16px; line-height: normal; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; margin-top: 30px;}
+.btn-xlarge:visited {border: white; display: flex; justify-content:center;}
