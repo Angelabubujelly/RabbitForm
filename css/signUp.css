@@ -4,7 +4,8 @@
 *{margin: 0; padding: 0;font-family: 'SBAggroL'; color: #F25774; }
 p {color: #232323;}
 ul {list-style:none;}
-select>option {color: #232323;}
+
+select>option {color: #909090;}
 /* header */
 .logo{display: flex; align-items: center; margin: 30px;}
 #logoImg{width: 300px; display: flex; margin:0px;}
