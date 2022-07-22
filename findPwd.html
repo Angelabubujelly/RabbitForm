@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/findPwd.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/signUp.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+    <div><a href="#" class="logo"><img src="img/logo.png" alt="logoImg" id="logoImg"></a></div>  
+    <div class="bigTitle">비밀번호 찾기</div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-7 col-lg-5 col-xl-4">
+                    <form class="validation-form" novalidate>
+                        <div id="entire" class="form-action show container-fluid align-items-center">
+                            <div class="row align-items-center mt-4">
+                                <p class="fw-bold" id="adressCom">이름</p>
+                                <div class="col">
+                                    <input type="text" placeholder="" name="post1" id="post1" class="form-control mb-1 " value="" style="display:inline-block;width:278px;" required> 
+                                    <button id="sending" onclick="sendExam()"  style="color: white; background-color: #F25774; font-size: 16px; width:130px;">인증번호 발송</button>                    
+                                </div>       
+                            </div>
+                            <div class="row align-items-center mt-4" id="frame">
+                                <p class="fw-bold">아이디</p>
+                                    <div class="col">
+                                            <input type="text" maxLength=20 onInput="maxLengthCheck(this)"
+                                             onKeyUp="inputDataCheck(this.id)"
+                                                name="id" id="id"
+                                                class="form-control" placeholder="Id@example.com" required/>
+                                                <div class="invalid-feedback">
+                                                    ID 를 입력하세요
+                                                </div>
+                                    </div>
+                                   
+                            </div>
+                            <div class="row align-items-center mt-4" >
+                                <p class="fw-bold">휴대전화</p>
+                                    <div class="col-4">
+                                        <select class="form-select" id="phoneInd1" required>
+                                            <option value="">010</option>
+                                            <option>012</option>
+                                            <option>013</option>
+                                            <option>015</option>
+                                            </select>
+                                                <div class="invalid-feedback">
+                                                    식별번호를 선택하세요.
+                                                </div>
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" id="phoneInd2" placeholder="'-'없이 입력" required>
+                                            <div class="invalid-feedback">
+                                                전화번호를 입력하세요.
+                                            </div>
+                                    </div>
+                            </div>
+
+                            <div class="row align-items-center mt-4" id="frame">
+                                
+                                <div class="col">
+                                    <p class="fw-bold">인증번호</p>
+                                        <input type="text" name="name" id = "name" class="form-control" placeholder="인증번호" required>
+                                            <div class="invalid-feedback">
+                                                인증번호를 입력하세요.
+                                            </div>
+                                </div>
+                            </div>
+                          
+                        
+                            <div id="signUp" >
+                                <button type="button" id="#btn1" value="signUpIndividual" onClick="signUpInd_submit()" class="btn-xlarge"  style="color: white; background-color: #F25774;">확인</button>
+                            </div> 
+                        </div>
+                    </form> 
+                </div>
+            </div>
+        
+            
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

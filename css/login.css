@@ -1,0 +1,15 @@
+@font-face {font-family: 'SBAggroL';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'SBAggroM';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'SBAggroB';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff'); font-weight: normal;font-style: normal;}
+*{margin: 0; padding: 0;font-family: 'SBAggroL'; color: #949494; }
+p {color: #232323;}
+ul {list-style:none;}
+select>option {color: #232323;}
+.logo{margin: 250px 0 20px 0;}
+img{display: block; margin: 0px auto; }
+#logoImg{width: 300px; ; }
+.bigTitle {font-size: 40px; font-family: 'SBAggroB';text-align: center; margin: 40px 0;}
+.svg-icon { width: 1em;height: 1em;}
+  .svg-icon path, .svg-icon polygon, .svg-icon rect {fill:#F25774;}
+  .svg-icon circle { stroke:#F25774; stroke-width: 1;}
+#test {color: #949494; font-size: 14px;}

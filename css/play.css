@@ -1,27 +1,10 @@
-*{margin: 0; padding: 0;font-family: 'SBAggroL'; color: #404040; }
-a{text-decoration: none;}
-header{max-width: 1920px;}
-/*font*/
-@font-face {font-family: 'SBAggroL';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff');font-weight: normal;font-style: normal;}
-@font-face {font-family: 'SBAggroM';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');font-weight: normal;font-style: normal;}
-@font-face {font-family: 'SBAggroB';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff'); font-weight: normal;font-style: normal;}
-/*logoImg*/
-#navi{margin: 0 auto; display: flex;width: 75vw; height:95px;justify-content: space-between;}
-#navi>div {width: 300px;display: flex;}
-.logo{display: flex; align-items: center;}
-#logoImg{width: 300px; display: flex; margin:0px;}
-/*menu*/
-#navi>ul{ list-style: none; display: flex; padding: 0px; margin-left: 0;}
-li{display: flex; align-items: center;}
-.menu{ padding:0 2px;text-decoration-line: none; color: #232323; width: 7vw; height: 55px; display: flex;  text-align: center;  align-items:center; float: left; font-size: 1.1rem; font-weight: bold;}
-.menu:hover{color: #F25774;}
-/*loginBtn*/
-#log{width: 100px; height:38px; padding-top: 5px; border: 1px solid #F25774; border-radius: 50px; background-color: #F25774;color:white;text-align: center;  align-items:center; font-size: 1.1rem;}
-#log:hover{color: #F25774;background-color: white; font-size: 1.1rem;}
-header>hr  {border-color: #C7C7C7; border-top: 0px; margin: 0px;}
-
-
 /* play 페이지 */
+
+@font-face {font-family: 'SBAggroL'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'SBAggroM'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'SBAggroB'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff'); font-weight: normal; font-style: normal;}
+*{padding: 0; margin: 0; color: #404040; font-family: 'SBAggroL';}
+a{text-decoration: none;}
 .explain {text-align: center;}
 .scrollBar{margin: 0px 0 50px 10.3vw; position: relative;  justify-content: center; width:78.6vw;}
 .scrollBar>div:nth-child(1){width: 30%; height: 8px; background-color: #f25774; border-radius: 50px;}
@@ -38,7 +21,7 @@ header>hr  {border-color: #C7C7C7; border-top: 0px; margin: 0px;}
 .categoryBtn {display: flex; } /*구분과 chkbox 수평정렬*/
 .categoryBtn > div {display: flex; align-items: center;} /*구분과 chkbox 요소들 수평정렬*/
 input[type=checkbox] {width: 1.25em; height: 1.25em; accent-color: #F25774; } /*체크박스 색상 및 크기 지정*/
-input[type="text"]{outline:none; width:35vw} /*인풋창 테두리 제거*/
+input[type="text"]{outline:none; width:25vw} /*인풋창 테두리 제거*/
 .write{display: flex; justify-content: space-between; padding: 0 30px; width: 50%;} /*입력란 크기 지정*/
 .write input {border: none;} /*input 테두리 제거*/
 .write button {border: none; background-color: rgba(255, 255, 255, 0);  cursor: pointer;position: relative;}/* 버튼 투명하게 하고픈데 쩝 */
