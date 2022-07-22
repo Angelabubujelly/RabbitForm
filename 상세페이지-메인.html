@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        section{margin: 0 auto; width: 70vw;}
+        article{margin: 30px 0px;}
+        .layout{margin:0; display: flex; justify-content: center; font-weight: lighter;}
+        .layout p{padding: 10px;}
+        .layout article:nth-of-type(1)>img{border-radius: 10px; box-shadow: #909090 1px 2px 4px;} /*img*/
+        .layout article:nth-of-type(2){margin-left: 50px; width: 30%;}
+        .layout article:nth-of-type(2)>div>p{text-align: justify;}
+        .layout article:nth-of-type(2) span{font-family: 'SBAggroM'; font-size: 14pt;}
+        .layout article:nth-of-type(2)>p:nth-of-type(2){font-size: 16pt; font-family: 'SBAggroM';}
+            /*별점*/
+        .layout article:nth-of-type(2)>p:nth-of-type(3)>img{width: 100px; vertical-align: middle;}
+        .layout article:nth-of-type(2)>p:nth-of-type(3)>img:nth-of-type(2){width: 100px; vertical-align: middle;}
+        .layout article:nth-of-type(2)>p:nth-of-type(3)>a{color: #909090; font-size: 9pt; margin-left: 10px;}
+            /*- + 버튼*/
+        .layout article:nth-of-type(2)>div>div:nth-of-type(1){display: flex; justify-content: space-between; margin: 20px 0px;}
+        .layout article:nth-of-type(2)>div>div:nth-of-type(1)>div>input[type=button]{font-size: 11pt; width: 40px; height: 30px; border: solid #909090 1px; background-color: #fff;}
+        .layout article:nth-of-type(2)>div>div:nth-of-type(1)>div>input[type=button]:nth-of-type(1){border-radius: 10px 0px 0px 10px;}
+        .layout article:nth-of-type(2)>div>div:nth-of-type(1)>div>input[type=button]:nth-of-type(2){ border-radius: 0px 10px 10px 0px;}
+        .layout article:nth-of-type(2)>div>div:nth-of-type(1)>div>a{border-top: solid #909090 1px; border-bottom: solid #909090 1px;padding: 5px;}
+        .layout article:nth-of-type(2)>div>div:nth-of-type(1)>div>span{ color: #F25774;}
+            /*장바구니 바로구매 버튼*/
+        .layout article:nth-of-type(2)>div>div:nth-of-type(2){display: flex; justify-content: space-between;}
+        .layout article:nth-of-type(2)>div>div:nth-of-type(2)>input[type=button]{border-radius: 10px; font-family: 'SBAggroM'; font-size: 18pt; width: 180px; height: 60px;}
+        .layout article:nth-of-type(2)>div>div:nth-of-type(2)>input[type=button]:nth-of-type(1){border: solid #F4A1B1 1px; background-color: #fff; color: #F4A1B1;}
+        .layout article:nth-of-type(2)>div>div:nth-of-type(2)>input[type=button]:nth-of-type(2){background-color: #F25774 ; color: #fff;}
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="navi">
+            <div><a href="#" class="logo"><img src="img/logo.png" alt="logoImg" id="logoImg"></a></div>
+            <ul>
+                <li><a href="#" class="menu">소개</a></li>
+                <li><a href="#" class="menu">미용</a></li>
+                <li><a href="#" class="menu">예술</a></li>
+                <li><a href="#" class="menu">놀이</a></li>
+                <li><a href="#" class="menu">게시판</a></li>
+                <li><a href="#" class="menu" id="loginBtn"><button type="button" id="log">로그인</button></a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <section>
+        <div class="layout" id="layout">
+            <article>
+                <img src="img/img01.png" alt="제품이미지">
+            </article>
+            <article>
+                <p>아나시스</p>
+                <p>아클레온 세보덤 솔루션 수분세럼 올인원 모공앰플 세럼 55g</p>
+                <p><img src="img/star_gray.png"><img src="img/star.png"><span>5.0</span><a>47건</a></p>
+                <p>가격 <span>23,800원</span></p>
+                <p>택배비 <a>25,000원</a></p>
+                <div>
+                    <div>
+                        <div><input type="button" value="-"><a>99</a><input type="button" value="+"></div>
+                        <div><span>2,356,200원</span></div>
+                    </div>
+                    <div><input type="button" value="장바구니"><input type="button" value="바로구매"></div>
+                </div>
+            </article>
+        </div>
+        <hr>
+    </section>
+</body>
+</html>

@@ -10,6 +10,8 @@
         /*현재 페이지-메뉴*/
         .layout nav>ul>li:nth-last-of-type(2){color: #F25774;}
         /*판매관리-신규주문*/
+        .List:first-of-type>div>p>a>span{padding: 2px 12px; background-color: #F25774; border-radius: 8px; font-size: 8pt; color: #fff; vertical-align: middle;}
+        .List span{color: #F25774; font-weight: bold;}
         .List{margin-bottom: 40px;}
         .List>div{border: solid #909090 1px; width: 100%;}
         .List>div>p{padding: 15px;}
@@ -28,7 +30,6 @@
         .List>div>div>div:first-of-type{width: 20px;}
         #List>div>div>div:nth-of-type(4){width: 30%;}
         #List>div>div>div:nth-of-type(10){width: 20%;}
-        .List>div>div>div span{padding: 2px 6px; background-color: #F25774; color: #fff; border-radius: 8px; font-size: 8pt; vertical-align: middle;}
         input[type=text]{text-align: center;}
         input[type=checkbox]{width: 18px; height: 18px; vertical-align: middle;}
         .List input[type=button]{width: 100px; height: 25px; border: solid #909090 1px;}
@@ -67,7 +68,7 @@
             <h3>판매관리</h3>
             <article class="List" id="List">
                 <div>
-                    <p>신규주문</p>
+                    <p>신규주문 <a><span>2</span></a></p>
                     <hr>
                     <p>
                         조회기간
@@ -127,7 +128,7 @@
             </article>
             <article class="List" id="List">
                 <div>
-                    <p>목록<a>(총<span>0</span>명)</a></p>
+                    <p>목록<a>(총<span>2</span>명)</a></p>
                 </div>
                 <div>
                     <div>
