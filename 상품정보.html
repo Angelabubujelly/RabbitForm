@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/공용.css">
+    <style>
+        section{margin: 0 auto; width: 60vw;}
+
+        .contentC>div>ul{display: flex; margin-bottom: 4vw; text-align: center;} 
+        .contentC>div>ul>li{padding: 8px 10px; width: 15vw; height: 22px;  align-items: center; border: solid #F25774 1px; border-radius: 10px 10px 0px 0px;}
+        .contentC>div>ul>li a{font-size: 20px;}
+        .contentC>div>ul>li:nth-of-type(1){ border-bottom: #fff solid 1px; z-index: 3; position: relative;} /* 페이지 : 기능 추가 클릭 시, 클릭한 페이지의 li의 z-index를 3으로*/
+        .contentC>div>ul>li:nth-of-type(1) a{font-family: 'SBAggroM'; color: #F25774; position: relative;}
+        .contentC>div>ul>li:nth-of-type(2)>img[alt=icon_new]{width: 3.2vw; position: absolute;}
+
+    </style>
+</head>
+<body>
+    <section>
+        <article class="contentC" id="contentC">
+            <div>
+                <ul>
+                    <li><a href="#">상품정보</a></li>
+                    <li><a href="#">상세리뷰</a><img src="img/new.png" alt="icon_new"></li>
+                    <li><a href="#">유의사항</a></li>
+                    <li><a href="#">Q&A</li>
+                </ul>
+            </div>
+        </article>
+        <article class="contentD">
+            
+        </article>
+    </section>
+</body>
+</html>

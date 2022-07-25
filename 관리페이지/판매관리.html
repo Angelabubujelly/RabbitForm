@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/관리페이지.css">
+    <style>
+        /*현재 페이지-메뉴*/
+        .layout nav>ul>li:nth-last-of-type(2){color: #F25774;}
+        /*판매관리-신규주문*/
+        .List:first-of-type>div>p>a>span{padding: 2px 12px; background-color: #F25774; border-radius: 8px; font-size: 8pt; color: #fff; vertical-align: middle;}
+        .List span{color: #F25774; font-weight: bold;}
+        .List{margin-bottom: 40px;}
+        .List>div{border: solid #909090 1px; width: 100%;}
+        .List>div>p{padding: 15px;}
+        .List>div>p:first-of-type{font-size: 13pt;}
+        .List select{width: 200px; height: 25px; outline:none; border: solid #909090 1px;} /*select style*/
+        .List>p{margin: 10px 0px;}
+        .List>div>p>select{margin-left: 60px}
+        .List>p>select{margin-left: 30px;}
+            /*div table*/
+        .List>div:nth-of-type(2){display: table; width: 100%; border: solid #909090 1px; border-top: none; text-align: center; font-size: 10pt;}
+        .List>div>div:first-of-type{background-color: #F4F4F4;}
+        .List>div>div:nth-of-type(1)~div>div{border-right: solid #909090 1px; border-top: solid #909090 1px;}
+        .List>div>div:nth-of-type(1)~div>div:last-of-type{border-right: none; border-top: solid #909090 1px;}     
+        .List>div>div{display: table-row;}
+        .List>div>div>div{display: table-cell; padding: 8px 16px; vertical-align: middle;}
+        .List>div>div>div:first-of-type{width: 20px;}
+        #List>div>div>div:nth-of-type(4){width: 30%;}
+        #List>div>div>div:nth-of-type(10){width: 20%;}
+        input[type=text]{text-align: center;}
+        input[type=checkbox]{width: 18px; height: 18px; vertical-align: middle;}
+        .List input[type=button]{width: 100px; height: 25px; border: solid #909090 1px;}
+        
+        /*목록*/
+        #List:nth-of-type(2)>div>div>div:nth-of-type(4){width: 20%;}
+        #List:nth-of-type(2)>div>div>div:nth-of-type(6){width: 15%;}
+        #List:nth-of-type(2)>div>div>div:nth-of-type(7){width: 15%;}
+        #List:nth-of-type(2)>div>div>div:nth-of-type(8){width: 15%;}
+        #List:nth-of-type(2)>div>div>div:nth-of-type(10){width: 20%;}
+        #List:nth-of-type(2)>div>div>div:nth-of-type(11){width: 15%;}
+    </style>
+</head>
+<body>
+    <header>
+        <div><a herf="#">RABBIT FORM</a></div>
+        <div>    
+            <a href="#">내정보</a>
+            <a href="#">로그아웃</a>
+        </div>
+    </header>
+    <div class="layout">
+        <nav>
+            <ul>
+                <li>상품관리
+                    <ul>
+                        <li>상품조회/수정</li>
+                        <li>상품등록</li>
+                    </ul>
+                </li>
+                <li>판매관리</li>
+                <li>문의관리</li>
+            </ul>
+        </nav>
+        <section>
+            <h3>판매관리</h3>
+            <article class="List" id="List">
+                <div>
+                    <p>신규주문 <a><span>2</span></a></p>
+                    <hr>
+                    <p>
+                        조회기간
+                        <select>
+                            <option>결제일</option>
+                            <option>&ensp;∩&emsp;∩</option>
+                            <option>(⑉• ﻌ •⑉)</option>
+                        </select>
+                    </p>
+                </div>
+                <div>
+                    <div>
+                        <div><input type="checkbox"></div>
+                        <div>주문고객</div>
+                        <div>상품번호</div>
+                        <div>상품명</div>
+                        <div>결제</div>
+                        <div>배송상태</div>
+                        <div>주문수량</div>
+                        <div>재고수량</div>
+                        <div>판매가</div>
+                        <div>주문일자</div>
+                    </div>
+                    <div>
+                        <div><input type="checkbox"></div>
+                        <div>megacoff**</div>
+                        <div>o01</div>
+                        <div>아클레온 세보덤솔루션 수분세럼 올인원 모공앰플 세럼 55g</div>
+                        <div>완료</div>
+                        <div>준비중</div>
+                        <div>99</div>
+                        <div>999</div>
+                        <div>23,800</div>
+                        <div>2022-07-18</div>
+                    </div>
+                    <div>
+                        <div><input type="checkbox"></div>
+                        <div>megacoff**</div>
+                        <div>o01</div>
+                        <div>아클레온 세보덤솔루션 수분세럼 올인원 모공앰플 세럼 55g</div>
+                        <div>완료</div>
+                        <div>준비중</div>
+                        <div>99</div>
+                        <div>999</div>
+                        <div>23,800</div>
+                        <div>2022-07-18</div>
+                    </div>
+                </div>
+                <p>
+                    <a><input type="button" value="배송지연 안내"></a>
+                    <select>
+                        <option>배송지연 안내 사유선택</option>
+                        <option>잃어버릴게</option>
+                        <option>직접적을게</option>
+                    </select>
+                </p>
+            </article>
+            <article class="List" id="List">
+                <div>
+                    <p>목록<a>(총<span>2</span>명)</a></p>
+                </div>
+                <div>
+                    <div>
+                        <div><input type="checkbox"></div>
+                        <div>주문고객</div>
+                        <div>수취인명</div>
+                        <div>배송지</div>
+                        <div>우편번호</div>
+                        <div>배송시 요청사항</div>
+                        <div>수취인 연락처</div>
+                        <div>택배사</div>
+                        <div>송장번호</div>
+                        <div>상품명</div>
+                        <div>주문일자</div>
+                    </div>
+                    <div>
+                        <div><input type="checkbox"></div>
+                        <div>megacoff**</div>
+                        <div>고태곤</div>
+                        <div>인천광역시 남동구 인주대로 593 엔타스 12층</div>
+                        <div>21558</div>
+                        <div>피부가 처지고 있으니 신속하게 와주세요.</div>
+                        <div>010-1234-5678</div>
+                        <div>우체국 택배</div>
+                        <div><input type="text" placeholder="직접입력"></div>
+                        <div>아클레온 세보덤솔루션 수분세럼 올인원 모공앰플 세럼 55g</div>
+                        <div>2022-07-18</div>
+                    </div>
+                </div>
+                <p><a><input type="button" value="발송처리"> <input type="button" value="발송완료"></a></p>
+            </article>
+        </section>
+    </div>
+</body>
+</html>

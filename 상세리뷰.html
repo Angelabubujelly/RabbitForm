@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/공용.css">
+    <style>
+        section{margin: 0 auto; width: 60vw;} p{padding: 5px;}
+        img[alt="hart"]{width: 1vw; vertical-align: middle;} img[alt^="star"]{width: 6.2vw;} img[alt="reviewImg"]{width: 24.5%; margin-right: 0.5%;}
+
+        .contentC>div>ul{display: flex; text-align: center;} 
+        .contentC>div>ul>li{padding: 8px 10px; width: 15vw; height: 22px;  align-items: center; border: solid #F25774 1px; border-radius: 10px 10px 0px 0px;}
+        .contentC>div>ul>li a{font-size: 20px;}
+        .contentC>div>ul>li:nth-of-type(2){ border-bottom: #fff solid 1px; z-index: 3; position: relative;} /*현재 페이지*/
+        .contentC>div>ul>li:nth-of-type(2) a{font-family: 'SBAggroM'; color: #F25774; position: relative;}
+        .contentC>div>ul>li:nth-of-type(2)>img[alt=icon_new]{width: 3.2vw; position: absolute;}
+        
+        /*리뷰 list*/
+        .contentD>div{padding: 40px 0px; border-bottom: solid #909090 1px;}
+        .contentD>div>p:nth-of-type(1){font-size: 18pt; font-family: 'SBAggroM'; display: flex; justify-content: space-between;} /*리뷰 제목*/
+        .contentD>div>p:nth-of-type(2)>span>span{font-size: 14px; color: #F25774; font-weight: bold;} /*재구매 횟수*/
+        .contentD>div>p span{vertical-align: middle;} /*리뷰 텍스트 정렬을 위해 넣었습니다. 필요없을 시, 임의로 수정해도 괜찮습니다.*/
+        .contentD>div>p:nth-of-type(3)>span:nth-of-type(1)>img{position: absolute;} /*별점*/
+        .contentD>div>p:nth-of-type(4){color: #909090; font-size: 13px;} /*제품 회사이름*/
+    
+    </style>
+</head>
+<body>
+    <section>
+        <article class="contentC">
+            <div>
+                <ul>
+                    <li><a href="#">상품정보</a></li>
+                    <li><a href="#">상세리뷰</a><img src="img/new.png" alt="icon_new"></li>
+                    <li><a href="#">유의사항</a></li>
+                    <li><a href="#">Q&A</li>
+                </ul>
+            </div>
+        </article>
+        <article class="contentD" id="contentD">
+            <div>
+                <p>너무 좋아서 영업하고 다니는데 <span><img src="img/hart.png" alt="hart">183</span></p>
+                <p>megacoff** <span>재구매<span>8</span>회</span></p>
+                <p>
+                    <span><img src="img/star.png" alt="star"></span>
+                    <span><img src="img/star_gray.png" alt="star_gray"></span>
+                    <span>5.0</span>
+                    </span>
+                </p>
+                <p>아클레온 세보덤솔루션 수분세럼</p>
+                <p>얼마나 진심이냐면 사람들한테 영업하고 다니려고 매니큐어 색깔 이렇게 칠하고 다님 세상이 나를 건조한 사람으로 만드는데 우리집 강아지 빼고 유일하게 나를 촉촉하게 만들어주는 존재.
+                    본전은 절대 뽑으니까 믿고 써보세요. 효과가 불만족스러울시 이젠아카데미 뿌셔도 괜찮음
+                </p>
+                <p>
+                    <img src="img/img02.png" alt="reviewImg"><img src="img/img02.png" alt="reviewImg"><img src="img/img02.png" alt="reviewImg"><img src="img/img02.png" alt="reviewImg">
+                </p>
+            </div>
+            <div>
+                <p>너무 좋아서 영업하고 다니는데 <span><img src="img/hart.png" alt="hart">183</span></p>
+                <p>megacoff** <span>재구매<span>8</span>회</span></p>
+                <p>
+                    <span><img src="img/star.png" alt="star"></span>
+                    <span><img src="img/star_gray.png" alt="star_gray"></span>
+                    <span>5.0</span>
+                    </span>
+                </p>
+                <p>아클레온 세보덤솔루션 수분세럼</p>
+                <p>얼마나 진심이냐면 사람들한테 영업하고 다니려고 매니큐어 색깔 이렇게 칠하고 다님 세상이 나를 건조한 사람으로 만드는데 우리집 강아지 빼고 유일하게 나를 촉촉하게 만들어주는 존재.
+                    본전은 절대 뽑으니까 믿고 써보세요. 효과가 불만족스러울시 이젠아카데미 뿌셔도 괜찮음
+                </p>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/관리페이지.css">
+    <style>
+        .layout nav>ul>li>ul>li:first-of-type{color: #F25774;}
+        article>div{border: solid #909090 1px; margin-bottom: 40px;}
+        article>div>p:first-child{font-size: 13pt;}
+        article>div:nth-of-type(1)>p:nth-of-type(1)>span{padding: 2px 12px; background-color: #F25774; border-radius: 8px; font-size: 8pt; color: #fff; vertical-align: middle; font-weight: bold;}
+        article>div>p>a>span{color: #F25774; font-weight: bold;}
+        article>div>div>p>span{color: #F25774; font-weight: bold;}
+        article p{padding: 15px;}
+        
+        
+        article:nth-of-type(1){display: flex; overflow: hidden;}
+        article:nth-of-type(1)>div{width: 100%;}
+        article:nth-of-type(1)>div:last-of-type{border-left: none;}
+        article:nth-of-type(1)>div>hr:nth-of-type(2)~p{margin-left: 120px;}
+        article:nth-of-type(1)>div:nth-of-type(2)>hr~p{margin-left: 120px;}
+        
+        article:nth-of-type(2)>div{display: flex; justify-content: center; overflow: hidden;}
+        article:nth-of-type(2)>div>div{padding: 20px; text-align: center;}
+
+        article:nth-of-type(3)>div{border: none;}
+        article:nth-of-type(3)>div:first-of-type{display: table; width: 100%; border: solid #909090 1px; text-align: center;}
+        article:nth-of-type(3)>div>div:first-of-type{background-color: #F4F4F4;}
+        article:nth-of-type(3)>div>div:nth-of-type(2)>div{border-right: solid #909090 1px; border-top: solid #909090 1px;;}
+        article:nth-of-type(3)>div>div{display: table-row;}
+        article:nth-of-type(3)>div>div>div{display: table-cell; padding: 8px 16px;}
+        article:nth-of-type(3)>div>div>div:first-of-type{width: 20px;}
+        article:nth-of-type(3)>div>div>div:nth-of-type(2){width: 5%;}
+        article:nth-of-type(3)>div>div>div:nth-of-type(3){width: 5%;}
+        article:nth-of-type(3)>div>div>div:nth-of-type(4){width: 10%;}
+        article:nth-of-type(3)>div>div>div:nth-of-type(5){width: 20%;}
+        article:nth-of-type(3)>div>div>div:nth-of-type(6){width: 30%;}
+        article:nth-of-type(3)>div>div>div:nth-of-type(7){width: 10%;}
+        article:nth-of-type(3)>div>div>div:nth-of-type(8){width: 10%;}
+        article:nth-of-type(3)>div>div>div span{padding: 2px 6px; background-color: #F25774; color: #fff; border-radius: 8px; font-size: 8pt; vertical-align: middle;}
+        input[type=checkbox]{width: 18px; height: 18px; vertical-align: middle;}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div><a herf="#">RABBIT FORM</a></div>
+        <div>    
+            <a href="#">내정보</a>
+            <a href="#">로그아웃</a>
+        </div>
+    </header>
+    <div class="layout">
+       <nav>
+            <ul>
+                <li>상품관리
+                    <ul>
+                        <li>상품조회/수정</li>
+                        <li>상품등록</li>
+                    </ul>
+                </li>
+                <li>판매관리</li>
+                <li>문의관리</li>
+            </ul>
+       </nav>
+       <section>
+            <h3>상품조회/수정</h3>
+            <article>
+                <div>
+                    <p>주문/배송 <span>1</span></p>
+                    <hr>
+                    <p>신규주문</p>
+                    <hr>
+                        <p>배송준비 <a><span>0</span>건</a></p>
+                        <p>배송중 <a><span>0</span>건</a></p>
+                        <p>배송완료 <a><span>0</span>건</a></p>
+                </div>
+                <div>
+                    <p>클레임 <span></span></p>
+                    <hr>
+                        <p>취소요청 <a><span>0</span>건</a></p>
+                        <p>반품요청 <a><span>0</span>건</a></p>
+                        <p>교환요청 <a><span>0</span>건</a></p>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <div>
+                         <p>전체</p>
+                         <p><span>0</span>건</p>
+                    </div>
+                    <div>
+                        <p>판매중</p>
+                        <p><span>0</span>건</p>
+                    </div>
+                    <div>
+                        <p>판매종료</p>
+                        <p><span>0</span>건</p>
+                    </div>
+                    <div>
+                        <p>품절</p>
+                        <p><span>0</span>건</p>
+                    </div>
+                    <div>
+                        <p>판매금지</p>
+                        <p><span>0</span>건</p>
+                    </div>
+                </div>
+            </article>
+            <h3>상품목록</h3>
+            <article>
+                <div>
+                    <div>
+                        <div><input type="checkbox"></div>
+                        <div>수정</div>
+                        <div>삭제</div>
+                        <div>상품번호</div>
+                        <div>키워드</div>
+                        <div>상품명</div>
+                        <div>판매상태</div>
+                        <div>재고수량</div>
+                        <div>판매가</div>
+                    </div>
+                    <div>
+                        <div><input type="checkbox"></div>
+                        <div><a href="#"><span>수정</span></a></div>
+                        <div><a href="#"><span>삭제</span></a></div>
+                        <div>o01</div>
+                        <div>키워드</div>
+                        <div>상품명</div>
+                        <div>판매상태</div>
+                        <div>재고수량</div>
+                        <div>판매가</div>
+                    </div>
+                </div>
+                
+            </article>
+        </section>
+    </div>
+</body>
+</html>
