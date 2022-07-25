@@ -1,0 +1,46 @@
+@font-face {font-family: 'SBAggroL';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'SBAggroM';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'SBAggroB';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff'); font-weight: normal;font-style: normal;}
+*{padding: 0; margin: 0; color: #404040; font-family: 'SBAggroL'; word-break: keep-all;}
+a{text-decoration: none;}
+section{width: 70vw; margin: 0 auto;}
+header>hr{display: none;}
+
+/* 카테고리 */
+.smallNav{display: flex; justify-content: center; margin-top: 40px;}
+.smallNav>div{font-family: 'SBAggroM'; font-size: 24px; margin: 20px; }
+.smallNavCheck{color: #f25774; font-family: 'SBAggroB';} /* 선택된 카테고리 */
+.smallNavCheck>hr{width: 80%; margin: 0 auto; border-color: #f25774;}
+
+/* 검색버튼 */
+#search{width: 70%; height: 3.5vw; padding: 0 3vw; margin: 40px auto; border-radius: 80px; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25); display: flex; justify-content: space-between;} /* 검색 박스 */
+#search>input{border: unset; outline: unset; width: 95%; font-size: 18px;} /* 입력칸 */
+#search>button{background: none; border: unset;} /* 버튼스타일 */
+#search>button>img{width: 2vw;} /* 돋보기 */
+
+/*글쓰기버튼*/
+.writeDiv{display: flex;justify-content: flex-end;width: 89.5%;}
+#write{width: 100px; height:38px;border: 1px solid #F25774; border-radius: 50px; background-color: #F25774;color:white;font-size: 1.1rem; }
+#write:hover{color: #F25774;background-color: white; font-size: 1.1rem;}
+
+/* 글목록 */
+#listFrame {width: 79%; margin: 40px auto;border: 1px solid #C7C7C7; border-radius: 10px; font-size: 0.8rem}
+.top {height: 3.5vw;border-bottom: 1px solid #C7C7C7; display: flex; justify-content: space-between; align-items: center;}
+.block {font-weight: bold;}
+
+.status {margin-left:20px; padding: 7px; border-radius: 15px; background-color: #FFD74B;color:white;}
+#end {background-color: #BFBFBF;}
+.contentDate{margin-right: 20px; color: #6f6f6f; font-size: 0.5rem }
+.category{color: #F25774; margin: 0 5px;}
+.bottom{display: flex; height: 3.5vw; justify-content: space-between;align-items: center; margin-left: 10px;}
+.textPink {color:#F25774; margin: 0 8px 0 5px; }
+#icon {width: 2.5vw; border-radius: 50px; margin-right: 10px;}
+.user {display: flex; align-items: center; margin-right: 20px;}
+
+/* 페이지넘버링 */
+#pageCount{display: flex;  margin: 80px 0; justify-content: center;}
+#pageCount>div:nth-child(1)>a:nth-child(1), #pageCount>div:nth-child(3)>a:nth-last-child(1){color: #7e7e7e;}
+#pageCount>div:nth-child(3)>a:nth-child(1), #pageCount>div:nth-child(1)>a:nth-last-child(1){font-family: 'SBAggroM';}
+#pageClick{color: #f25774; font-family: 'SBAggroM';}
+#pageCount>p{margin: 0 3vw;}
+#pageCount>p>a{padding: 0 1vw;}

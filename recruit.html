@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/recruit.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header>
+    <nav id="navi">
+        <a href="#" class="logo"><img src="img/logo.png" alt="logoImg" id="logoImg"></a>
+        <ul>
+            <li><a href="#" class="menu">소개</a></li>
+            <li><a href="#" class="menu">미용</a></li>
+            <li><a href="#" class="menu">관람예술</a></li>
+            <li><a href="#" class="menu">참여예술</a></li>
+            <li><a href="#" class="menu">게시판</a></li>
+            <li><a href="#" class="menu" id="loginBtn">로그인</a></li>
+        </ul>
+    </nav>
+    <hr>
+</header>
+<section>
+    <!-- 카테고리 -->
+    <article class="smallNav">
+        <div>자유게시판</div>
+        <div class="smallNavCheck">모집<hr></div>
+    </article>
+    <!-- 검색칸 -->
+    <article>
+        <form id="search">
+            <input placeholder="검색어를 입력해주세요">
+            <button><img src="img/iconMG.png" alt="검색버튼"></button>
+        </form>
+    </article>
+    <!-- 글쓰기버튼 -->
+    <article>
+        <div class="writeDiv">
+        <input type="button" value="글쓰기" id="write" onclick="writeRecruit()">
+        </div>
+    </article>
+    <!-- 글목록 -->
+    <article>
+        <div id="listFrame">
+            <div class="top">
+                <div>
+                    <a href="#" class="block">
+                        <span class="status" >모집중</span>
+                            <strong class="category">[스냅사진]</strong>
+                            여름 분위기 스냅 사진 모델 찾아요.
+                    </a>
+                </div>
+                <div>
+                    <span class="contentDate">2022-07-25 09:30</span>
+                </div>
+            </div>
+            <div class="bottom">  
+                <div>
+                    <span class="textPink">제작 : </span> 김중경 <span class="textPink">위치 : </span> 구월 센트럴파크 <span class="textPink">성별 : </span> 무관 <span class="textPink"> 역할 : </span> 촬영모델
+                </div>   
+                    <div class="user">
+                        <img src="img/mewar.PNG" id="icon" alt="">
+                        치이카와
+                    </div>
+            </div>
+        </div>
+        <div id="listFrame">
+            <div class="top">
+                <div>
+                    <a href="#" class="block">
+                        <span class="status" id="end" >마감</span>
+                            <strong class="category">[버스킹]</strong>
+                            피아노 칠 줄 아는 사람 계신지?
+                    </a>
+                </div>
+                <div>
+                    <span class="contentDate">2022-07-25 09:30</span>
+                </div>
+            </div>
+            <div class="bottom">  
+                <div>
+                    <span class="textPink">제작 : </span> . <span class="textPink">위치 : </span> 이젠 아카데미 <span class="textPink">성별 : </span> 무관 <span class="textPink"> 역할 : </span> 피아노 연주자
+                </div>   
+                    <div class="user">
+                        <img src="img/heung.PNG" id="icon" alt="">
+                        하치와레
+                    </div>
+            </div>
+        </div>
+        <div id="listFrame">
+            <div class="top">
+                <div>
+                    <a href="#" class="block">
+                        <span class="status" >모집중</span>
+                            <strong class="category">[단편영화]</strong>
+                            학생 역할 배우 모집
+                    </a>
+                </div>
+                <div>
+                    <span class="contentDate">2022-07-25 09:30</span>
+                </div>
+            </div>
+            <div class="bottom">  
+                <div>
+                    <span class="textPink">제작 : </span> 김중경 <span class="textPink">위치 : </span> 구월 여중 <span class="textPink">성별 : </span> 여성 <span class="textPink"> 역할 : </span> 학생
+                </div>   
+                    <div class="user">
+                        <img src="img/mewar.PNG" id="icon" alt="">
+                        치이카와
+                    </div>
+            </div>
+        </div>
+        <div id="listFrame">
+            <div class="top">
+                <div>
+                    <a href="#" class="block">
+                        <span class="status"  id="end" >마감</span>
+                            <strong class="category">[유투브]</strong>
+                             유투브 출연하실 분
+                    </a>
+                </div>
+                <div>
+                    <span class="contentDate">2022-07-25 09:30</span>
+                </div>
+            </div>
+            <div class="bottom">  
+                <div>
+                    <span class="textPink">제작 : </span> . <span class="textPink">위치 : </span> 남산타워 <span class="textPink">성별 : </span> 남자 <span class="textPink"> 역할 : </span> 출연자
+                </div>   
+                    <div class="user">
+                        <img src="img/heung.PNG" id="icon" alt="">
+                        하치와레
+                    </div>
+            </div>
+        </div>
+    </article>
+    <!-- 페이지 넘버링 -->
+    <article id="pageCount">
+        <div>
+            <a href=""><<</a>
+            <a href=""><</a>
+        </div>
+        <p><a href="" id="pageClick">1</a><a href="">2</a><a href="">3</a></p>
+        <div>
+            <a href="">></a>
+            <a href="">>></a>
+        </div>
+    </article>
+</section>
+<footer>
+    <div>
+        <div>
+            <span>RABBIT FORM</span>
+        </div>
+        <div>
+            <a> 상호명 : RABBIT FORM
+                <br>RABBIT FORM은 개별 판매자가 상품을 판매하는 오픈마켓이며 RABBIT FORM은 통신판매 중개자로 거래 당사자가 아니므로, 판매자가 등록한 상품정보 및 거래 등에 대해 일체 책임을 지지 않습니다.
+                <br>단, RABBIT FORM이 판매자로 등록 판매한 상품의 경우는 판매자로서 책임을 부담합니다. &emsp; Copyright © 2022 RABBIT FORM. All rights reserved.
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

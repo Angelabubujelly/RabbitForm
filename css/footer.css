@@ -1,0 +1,5 @@
+footer{border-top: solid #909090 1px; padding: 50px; position: relative;}
+footer>div{display: flex; position: absolute; left: 240px; top: 20px; }
+footer>div>div:nth-of-type(1)>span{font-family: 'SBAggroB'; font-size: 16pt; color: #F25774;}
+footer>div>div:nth-of-type(2){margin-left: 20px;}
+footer>div>div:nth-of-type(2)>a{font-size: 8pt; color: #404040;}
