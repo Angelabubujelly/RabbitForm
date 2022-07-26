@@ -4,7 +4,7 @@ section{margin-top: 30px; margin-bottom: 70px;}
 #right{ position: fixed; width:17vw; margin-left: 61vw; top: 10.2%;}
 .layout{display: flex;  border-radius: 18px;}
 .layout p{padding: 10px;}
-.layout article:nth-of-type(1)>img{width: 18vw; height: 24.7vw;border-radius: 18px;} /*img*/
+.layout article:nth-of-type(1)>img{width: 16vw; height: 20.7vw;border-radius: 18px;} /*img*/
 .layout article:nth-of-type(2)>p{margin-left: 2vw;} /*축제정보 프레임*/
 .layout article:nth-of-type(2)>p:nth-of-type(1){font-size: 25px; font-family: 'SBAggroM';margin-bottom: 2vw;}/*축제 이름*/
 #layoutB>p>span:nth-child(1){width: 100px; display: inline-block; }
@@ -13,7 +13,7 @@ section{margin-top: 30px; margin-bottom: 70px;}
 /* 이용정보들 네비게이션 */
 .contentC{margin-top: 27px;}
 .contentC>div>ul{display: flex; text-align: center;} 
-.contentC>div>ul>li{padding: 8px 10px; width: 15vw; height: 25px;  align-items: center; border: solid #F25774 1px; border-radius: 10px 10px 0px 0px;}
+.contentC>div>ul>li{padding: 8px 10px; width: 15vw; height: 25px; line-height: 25px; align-items: center; border: solid #F25774 1px; border-radius: 10px 10px 0px 0px;}
 .contentC>div>ul>li:nth-of-type(1){ border-bottom: #fff solid 1px; z-index: 3; position: relative;} /*현재 페이지*/
 .contentC>div>ul>li:nth-of-type(1) a{font-family: 'SBAggroM'; color: #F25774; position: relative;}
 .contentMain {display: flex;justify-content: center;}
