@@ -1,0 +1,41 @@
+/* 레이아웃 설정 */
+section{margin-top: 30px; margin-bottom: 70px;}
+#left{width: 48%; height: 90%;margin-left: 12vw;}
+#right{ position: fixed; width:17vw; margin-left: 61vw; top: 11.4%;}
+.layout{display: flex;  border-radius: 18px;}
+.layout p{padding: 10px;}
+.layout article:nth-of-type(1)>img{width: 18vw; height: 24.7vw;border-radius: 18px;} /*img*/
+.layout article:nth-of-type(2)>p{margin-left: 2vw;} /*축제정보 프레임*/
+.layout article:nth-of-type(2)>p:nth-of-type(1){font-size: 25px; font-family: 'SBAggroM';margin-bottom: 2vw;}/*축제 이름*/
+#layoutB>p>span:nth-child(1){width: 100px; display: inline-block; }
+#layoutB>p>span:nth-child(2){width: 13vw; display: inline-block;font-size: 15px;}
+
+/* 이용정보들 네비게이션 */
+.contentC{margin-top: 27px;}
+.contentC>div>ul{display: flex; text-align: center;} 
+.contentC>div>ul>li{padding: 8px 10px; width: 15vw; height: 25px;  align-items: center; border: solid #F25774 1px; border-radius: 10px 10px 0px 0px;}
+.contentC>div>ul>li:nth-of-type(1){ border-bottom: #fff solid 1px; z-index: 3; position: relative;} /*현재 페이지*/
+.contentC>div>ul>li:nth-of-type(1) a{font-family: 'SBAggroM'; color: #F25774; position: relative;}
+.contentMain {display: flex;justify-content: center;}
+.contentMain img{width: 95%; margin-top: 18px; }
+
+/* 달력 */
+
+.calendar {border: 1px solid #D1D1D1;  border-radius: 18px; width: 315px; height: 430px; border-radius: 20px;padding: 24px;}
+#viewingDate{margin: 5px 10px; font-family: 'SBAggroM';}
+.month-indicator  {display: flex; justify-content: center;margin: 20px 0;font-size: 15px;} 
+.arrow{margin: 0 30px; color: #adadad;  display: flex; text-align: center;}
+.day-of-week {display: flex; background-color: #eeeeee; border-radius: 10px; height: 30px;font-size: 15px; justify-content: space-around; text-align: center;}/*요일 글씨*/
+.day-of-week>div{display: flex;align-items: center; }/*요일 가운데정렬*/
+.calendar_table_row {display: flex;justify-content: space-around;  }/*날짜 가운데 정렬*/
+button {border:none;width: 30px; height: 30px; justify-content: center; margin: 1px; background-color: white; border-radius: 50px;}
+#sunday>time {color: #F25774; }
+#ticket{margin: 5px 10px;font-size: 15px;}
+.times{background-color: white; text-align: center; align-items: center; width: 99px; height: 38px; vertical-align: middle; border: 1px solid #F25774;font-size: 15px; border-radius: 10px; line-height: 38px; vertical-align: middle; display: inline-block;}
+.times>span{color: #F25774; height: 15px;}
+.times>span:nth-child(2){margin-left: 10px;}
+.table_row{margin: 20px 0;}
+#viewingDate{font-size: 15px;}
+.booking{color: white; background-color: #F25774; border: 1px solid #F25774;  display: inline-block; width: 315px; height: 38px; line-height: 38px;  vertical-align: middle; font-family: 'SBAggroM'; font-size: 22px; justify-content: center; text-align: center; padding: 5px 24px 0;  border-radius: 15px;}
+
+          
