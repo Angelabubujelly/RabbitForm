@@ -11,13 +11,6 @@ p{padding: 5px;}
 #layoutB>p>span:nth-child(1){width: 100px; display: inline-block; }
 #layoutB>p>span:nth-child(2){width: 13vw; display: inline-block;font-size: 15px;}
 
-.contentE div{padding: 15px;}
-.contentE div>h1{margin-top: 1.5vw;margin-left: 5px; font-family: 'SBAggroB';font-size: 25px;}
-.contentE div>h3{margin-top: 1vw;margin-left: 5px;} /*유의사항 소제목*/
-.contentE div>p{color: #909090;} /*유의사항 내용*/
-.contentE div p span{font-size: 16px;}
-.contentE div>p:first-of-type{margin-top: 0.8vw;} /*유의사항 소제목 다음 텍스트*/
-
 /* 이용정보들 네비게이션 */
 .contentC{margin-top: 27px;}
 .contentC>div>ul{display: flex; text-align: center;} 
@@ -42,7 +35,7 @@ p{padding: 5px;}
 
 
 /* 달력 */
-.calendar {border: 1px solid #D1D1D1;  border-radius: 18px; width: 315px; margin-top: 40px;height:430px; border-radius: 20px;padding: 24px;}
+.calendar {border: 1px solid #D1D1D1;  border-radius: 18px; width: 315px; margin-top: 20px;height:430px; border-radius: 20px;padding: 24px;}
 #viewingDate{margin: 5px 10px; font-family: 'SBAggroM';}
 .month-indicator  {display: flex; justify-content: center;margin: 20px 0;font-size: 15px;} 
 .arrow{margin: 0 30px; color: #adadad;  display: flex; text-align: center;}

@@ -21,7 +21,7 @@ p{padding: 5px;}
 .contentMain img{width: 95%; margin-top: 18px; }
 
 /* 달력 */
-.calendar {border: 1px solid #D1D1D1;  border-radius: 18px; width: 315px; margin-top: 40px;height:430px; border-radius: 20px;padding: 24px;}
+.calendar {border: 1px solid #D1D1D1;  border-radius: 18px; width: 315px; margin-top: 20px;height:430px; border-radius: 20px;padding: 24px;}
 #viewingDate{margin: 5px 10px; font-family: 'SBAggroM';}
 .month-indicator  {display: flex; justify-content: center;margin: 20px 0;font-size: 15px;} 
 .arrow{margin: 0 30px; color: #adadad;  display: flex; text-align: center;}
