@@ -11,23 +11,22 @@ p{padding: 5px;}
 #layoutB>p>span:nth-child(1){width: 100px; display: inline-block; }
 #layoutB>p>span:nth-child(2){width: 13vw; display: inline-block;font-size: 15px;}
 
+/*유의사항*/
+.contentE div{padding: 15px;}
+.contentE div>h1{margin-top: 1.5vw;margin-left: 5px; font-family: 'SBAggroB';font-size: 25px;}
+.contentE div>h3{margin-top: 1vw;margin-left: 5px;} /*유의사항 소제목*/
+.contentE div>p{color: #909090;} /*유의사항 내용*/
+.contentE div p span{font-size: 16px;}
+.contentE div>p:first-of-type{margin-top: 0.8vw;} /*유의사항 소제목 다음 텍스트*/
+
 /* 이용정보들 네비게이션 */
 .contentC{margin-top: 27px;}
 .contentC>div>ul{display: flex; text-align: center;} 
 .contentC>div>ul>li{padding: 8px 10px; width: 15vw; height: 25px; line-height: 25px;  align-items: center; border: solid #F25774 1px; border-radius: 10px 10px 0px 0px;}
-.contentC>div>ul>li:nth-of-type(2){ border-bottom: #fff solid 1px; z-index: 3; position: relative;} /*현재 페이지*/
-.contentC>div>ul>li:nth-of-type(2) a{font-family: 'SBAggroM'; color: #F25774; position: relative;}
+.contentC>div>ul>li:nth-of-type(3){ border-bottom: #fff solid 1px; z-index: 3; position: relative;} /*현재 페이지*/
+.contentC>div>ul>li:nth-of-type(3) a{font-family: 'SBAggroM'; color: #F25774; position: relative;}
 .contentMain {display: flex;justify-content: center;}
 .contentMain img{width: 95%; margin-top: 18px; }
-
-/*리뷰 list*/
-.contentD {width: 48vw;}
-.contentD>div{padding: 30px 0px; border-bottom: solid #909090 1px;}
-.contentD>div>p:nth-of-type(1){font-size: 18pt; font-family: 'SBAggroM'; display: flex; justify-content: space-between;} /*리뷰 제목*/
-.contentD>div>p:nth-of-type(2){color: #909090; font-size: 13px;} /*아이디*/
-.contentD>div>p:nth-of-type(4)>img {width: 18px;}
-.contentD>div>p:nth-of-type(4)>span{ font-size: 13px; margin-left: 10px;} /*하트수*/
-.contentD>div:last-of-type{border-bottom: none;}
 
 
 /* 달력 */
