@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/공용.css">
+    <link rel="stylesheet" href="css/board.css">
+    <link rel="stylesheet" href="css/read.css">
+    <link rel="stylesheet" href="css/post.css">
+</head>
+<body>
+    <header>
+        <nav id="navi">
+            <a href="#" class="logo"><img src="img/logo.png" alt="logoImg" id="logoImg"></a>
+            <ul>
+                <li><a href="#" class="menu">소개</a></li>
+                <li><a href="#" class="menu">미용</a></li>
+                <li><a href="#" class="menu">관람예술</a></li>
+                <li><a href="#" class="menu">참여예술</a></li>
+                <li><a href="#" class="menu">게시판</a></li>
+                <li><a href="#" class="menu" id="loginBtn">로그인</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <section>
+        <div class="kategorie">
+            <ul>
+                <li>자유게시판</li>
+                <li>인디갤러리</li>
+                <li>모집</li>
+            </ul>
+        </div>
+        <article class="boardContent" id="postArea">
+            <div class="contentHead">
+                <input type="radio" name="contentHead" id="chat">
+                <label for="chat"><img src="img/headChat.png" alt="잡담"></label>
+                <input type="radio" name="contentHead" id="recommendation">
+                <label for="recommendation"><img src="img/headRecommendation.png" alt="추천"></label>
+            </div>
+            <div>
+                <span><img src="img/user.png" alt="프로필사진"></span>
+                <span>농담곰</span>
+                <p><input type="text"></p>
+            </div>
+            <div>
+                <textarea>
+                </textarea>
+            </div>
+            <p>
+                <span>추가이미지<br>(<span>0</span>/4)</span>
+                <input type="button" value="+">
+                <input type="button" value="+">
+                <input type="button" value="+">
+                <input type="button" value="+">
+            </p>
+            <span>※ jpg, jpge, png, bmp 형식의 이미지만 등록 가능합니다.</span>
+        </article>
+        <input type="button" value="등록">
+    </section>
+</body>
+</html>

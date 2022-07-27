@@ -1,0 +1,14 @@
+/*게시글 말머리*/
+.chat{border: solid #F25774 1px; color: #F25774; padding: 3px 8px; border-radius: 10px; font-size: 13px; font-family: 'SBAggroM';} /*잡담*/
+.popularity{background-color: #FFD74B; color: #fff; padding: 3px 8px; border-radius: 10px; font-size: 13px;} /*인기*/
+.recommendation{background-color: #F25774; color: #fff; padding: 3px 8px; border-radius: 10px; font-size: 13px;} /*추천*/
+
+section{width: 55vw;}
+img[alt="프로필사진"]{width: 40px; height: 40px; object-fit: cover;}
+img[alt="좋아"]{width: 1vw; vertical-align: middle;}
+
+/*kategorie*/
+.kategorie{margin: 40px;}
+.kategorie>ul{display: flex; justify-content: space-evenly;}
+.kategorie>ul>li{font-size: 20px;}
+

@@ -5,7 +5,7 @@
 
 *{padding: 0; margin: 0; color: #404040; font-family: 'SBAggroL'; word-break: keep-all;}
 
-a,p,span{ font-size: 11pt; text-decoration: none;  overflow: hidden;}
+a,p,span{ font-size: 11pt; text-decoration: none;}
 
 input{outline: none; border: none; accent-color: #F25774; cursor: pointer;}
 

@@ -6,49 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/공용.css">
-    <style>
-        img[alt="hart"]{width: 1vw; vertical-align: middle;}
-
-        section>div:nth-of-type(1){margin: 40px;}
-        section>div:nth-of-type(1)>ul{display: flex; justify-content: space-evenly;}
-        section>div:nth-of-type(1)>ul>li{font-size: 20px;}
-
-        section>div:nth-of-type(2){display: flex; justify-content: space-between; align-items: center;}
-        section>div:nth-of-type(2)>a{font-family: 'SBAggroM'; font-size: 26px;}
-        section>div:nth-of-type(2)>a>span{font-family: 'SBAggroM'; font-size: 26px; color: #F25774;} /*보기 태그 ex)인기순*/
-        section>div:nth-of-type(2)>button{border: none; cursor: pointer; background-color: #F25774; border-radius: 18px; padding: 10px 20px; font-size: 18px; color: #fff;}
-        .board>div{padding: 20px 0px; border-bottom: solid #909090 1px;}
-        .board>div>div:nth-of-type(1){display: flex; justify-content: space-between; align-items: center;}
-        .board>div>div:nth-of-type(1)>div>p{font-family: 'SBAggroM'; font-size: 22px;} /*게시글 제목*/
-        .board>div>div:nth-of-type(1)>div>a{color: #909090;} /*게시글 미리보기 텍스트*/
-        .board>div>div:nth-of-type(1)>img{width: 125px; border-radius: 10px;} /*게시글 이미지*/
-        .board>div:nth-of-type(1)>p{line-height: 30px;}
-
-            /*게시글 말머리*/
-        .chat{border: solid #F25774 1px; color: #F25774; padding: 3px 8px; border-radius: 10px; font-size: 14px; font-family: 'SBAggroM'; vertical-align: middle;} /*잡담*/
-        .popularity{background-color: #FFD74B; color: #fff; padding: 6px 10px; border-radius: 10px; font-size: 13px; vertical-align: middle;} /*인기*/
-        .recommendation{background-color: #F25774; color: #fff; padding: 6px 10px; border-radius: 10px; font-size: 13px; vertical-align: middle;} /*추천*/
-
-        .board>div>div:nth-of-type(1){vertical-align: middle;}
-        .board>div>div:nth-of-type(2){margin-top: 20px;}
-        .board>div>div:nth-of-type(2)>img{vertical-align: middle;}
-        .board>div>div:nth-of-type(2)>a{margin: 0px 7px; color: #909090;}
-
-        .boardContet{margin: 0 auto; width: 90%;}
-        .boardContet>pre{text-align: center;}
-
-        .boardList>div:nth-of-type(1){display: flex; justify-content: space-between; margin: 15px 0px; align-items: center;}
-        .boardList>div:nth-of-type(1) button{border: solid #F25774 2px; border-radius: 15px; background-color: #fff; color: #F25774; padding: 10px 18px; font-size: 16px; font-weight: bold; cursor: pointer;}
-
-        .boardList>p{margin-top: 25px;}
-        .boardList>p span{color: #F25774; font-weight: bold;}
-        
-        .boardComment{display: flex; margin: 30px 0px; align-items: center;}
-        .boardComment>div>p:nth-of-type(1){font-weight: bold;;}
-        .boardComment>div>p:nth-of-type(1)>span{font-size: 12px; font-weight: lighter; color:#909090}
-        .boardComment>div>p:nth-of-type(2)>span{justify-content: space-between;}
-
-    </style>
+    <link rel="stylesheet" href="css/board.css">
+    <link rel="stylesheet" href="css/read.css">
 </head>
 <body>
     <header>
@@ -66,18 +25,18 @@
         <hr>
     </header>
     <section>
-        <div>
+        <div class="kategorie">
             <ul>
                 <li>자유게시판</li>
                 <li>인디갤러리</li>
                 <li>모집</li>
             </ul>
         </div>
-        <article class="board" id="board">
+        <article class="boardContet">
             <div>
                 <div>
                     <div>
-                        <p><span class="recommendation">추천</span> Aimyon - marigold 노래 들어본 사람!</p>
+                        <p><span class="chat">잡담</span> Aimyon - marigold 노래 들어본 사람!</p>
                     </div>
                     <div>
                         <a>수정</a>
@@ -86,16 +45,16 @@
                     </div>
                 </div>
                 <div>
-                    <img src="img/user1.png">
+                    <img src="img/user1.png" alt="프로필사진">
                     <a href="#"><sapn>키티</sapn></a>
                     <a>댓글 1 개</a>
                     <a>조회 22</a>
-                    <a><img src="img/hart.png" alt="hart"> 2</a>
+                    <a><img src="img/hart.png" alt="좋아"> 2</a>
                     <a>2022-07-25</a>
                 </div>
             </div>
         </article>
-        <article class="boardContet" id="board">
+        <article class="boardContent">
             <pre>
 
 재료 :
@@ -108,25 +67,18 @@
 
             </pre>
         </article>
-        <article class="boardList" id="boardList">
+        <article class="CommentArea">
             <div>
-                <span><img src="img/hart.png" alt="hart"> 178</span>
+                <span><img src="img/hart.png" alt="좋아"> 178</span>
                 <button>목록으로</button>
             </div>
             <hr>
             <p>댓글 <span>2</span></p>
-            <div class="boardComment" id="boardComment">
+            <div class="boardComment">
                 <img src="img/user.png" alt="유저이미지">
                 <div>
-                    <p>농담곰 <span>1분전</span></p>
-                    <p>레시피 안 보이는데요. 신고했습니다. <a>삭제하기</a></p>
-                </div>
-            </div>
-            <div class="boardComment" id="boardComment">
-                <img src="img/user1.png" alt="유저이미지">
-                <div>
-                    <p>키티 <span>24분전</span></p>
-                    <p>맛있어요~</p>
+                    <p><span>농담곰</span> <span>1분</span>전</p>
+                    <p><span>레시피 안 보이는데요. 신고했습니다.</span> <a>삭제하기</a></p>
                 </div>
             </div>
         </article>
