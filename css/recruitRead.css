@@ -1,0 +1,58 @@
+/* 카테고리 */
+.smallNav{display: flex; justify-content: center; margin-top: 40px;}
+.smallNav>div{font-family: 'SBAggroM'; font-size: 24px; margin: 20px; }
+.smallNavCheck{color: #f25774; font-family: 'SBAggroB';} /* 선택된 카테고리 */
+.smallNavCheck>hr{width: 80%; margin: 0 auto; border-color: #f25774;}
+
+
+img[alt="hart"]{width: 1vw; vertical-align: middle;}
+
+section>div:nth-of-type(1){margin: 40px;}
+section>div:nth-of-type(1)>ul{display: flex; justify-content: space-evenly;}
+section>div:nth-of-type(1)>ul>li{font-size: 20px;}
+
+section>div:nth-of-type(2){display: flex; justify-content: space-between; align-items: center;}
+section>div:nth-of-type(2)>a{font-family: 'SBAggroM'; font-size: 26px;}
+section>div:nth-of-type(2)>a>span{font-family: 'SBAggroM'; font-size: 26px; color: #F25774;} /*보기 태그 ex)인기순*/
+section>div:nth-of-type(2)>button{border: none; cursor: pointer; background-color: #F25774; border-radius: 18px; padding: 10px 20px; font-size: 18px; color: #fff;}
+.board>div{padding: 20px 0px; border-bottom: solid #909090 1px;}
+.board>div>div:nth-of-type(1){display: flex; justify-content: space-between; align-items: center;}
+.board>div>div:nth-of-type(1)>div>p{font-family: 'SBAggroM'; font-size: 22px;} /*게시글 제목*/
+.board>div>div:nth-of-type(1)>div>a{color: #909090;} /*게시글 미리보기 텍스트*/
+.board>div>div:nth-of-type(2)>img{width: 50px;height: 50px;  border-radius: 100px;} /*게시글 이미지*/
+.board>div:nth-of-type(1)>p{line-height: 30px;}
+
+    /*게시글 말머리*/
+.ing{background-color: #FFD74B; color: #fff; padding: 4px 10px; border-radius: 10px; font-size: 13px; vertical-align: middle;} /*인기*/
+.ed{background-color: #cdcdcd; color: #fff; padding: 4px 10px; border-radius: 10px; font-size: 13px; vertical-align: middle;} /*추천*/
+
+.board>div>div>div>p>:nth-of-type(2){color: #F25774; margin: 0 5px;}
+.board>div>div:nth-of-type(1){vertical-align: middle;}
+.board>div>div:nth-of-type(2){margin-top: 20px;}
+.board>div>div:nth-of-type(2)>img{vertical-align: middle;}
+.board>div>div:nth-of-type(2)>a{margin: 0px 7px; color: #909090;}
+
+/* 모집폼 */
+.recruitFrm{display: flex; justify-content: center;  align-items: center; margin: 20px 0 40px 0; }
+.frame{ border: 1px solid #C7C7C7; width: 68vw; border-radius: 10px; height: 18vw; display: flex; justify-content: space-around;align-items: center; padding: 20px 150px;}
+.frame>div>div>span{font-weight: bold; width: 7vw;;}
+.frame>div>div{ width: 20.8333vw; height: 1.5625vw;align-items: center;display:flex; margin: 1vw;} 
+.frame>div>div>div:nth-child(1) {font-weight: bold; width: 100px;}
+
+/* 게시글 내용 */
+.boardContet>pre{ text-align:center;}
+.boardContet>pre>img{max-width: 700px;}
+
+.boardList>div:nth-of-type(1){display: flex; justify-content: space-between; margin: 15px 0px; align-items: center;}
+.boardList>div:nth-of-type(1) button{border: solid #F25774 2px; border-radius: 15px; background-color: #fff; color: #F25774; padding: 10px 18px; font-size: 16px; font-weight: bold; cursor: pointer;}
+
+.boardList>p{margin-top: 25px;}
+.boardList>p span{color: #F25774; font-weight: bold;}
+
+.boardComment{display: flex; margin: 30px 0px; align-items: center;}
+.boardComment>div>p:nth-of-type(1){font-weight: bold;;}
+.boardComment>div>p:nth-of-type(1)>span{font-size: 12px; font-weight: lighter; color:#909090}
+.boardComment>div>p:nth-of-type(2)>span{justify-content: space-between;}
+.boardComment>img{width: 50px; height: 50px; border-radius: 100px;} 
+
+
