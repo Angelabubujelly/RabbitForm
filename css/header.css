@@ -5,9 +5,7 @@
 
 *{padding: 0; margin: 0; color: #404040; font-family: 'SBAggroL'; word-break: keep-all;}
 
-a,p,span{ font-size: 11pt; text-decoration: none;}
-
-input{outline: none; border: none; accent-color: #F25774; cursor: pointer;}
+a{text-decoration: none;}
 
 ul{list-style: none;}
 
@@ -29,10 +27,3 @@ section{width: 70vw; margin: 0 auto;}
 #loginBtn{padding: 0 1.1vw; height: 34px; padding-top: 3px; line-height: 36px; vertical-align: middle; border: 1px solid #F25774; border-radius: 50px; background-color: #F25774; color:white; text-align: center;  align-items:center; font-family: 'SBAggroL'; display: inline-block;}
 #loginBtn:hover{color: #F25774; background-color: white;}
 header>hr {border-color: #C7C7C7; border-top: 0px; margin: 0px;}
-
-/*footer*/
-footer{border-top: solid #909090 1px; padding: 50px; position: relative; margin-top: 40px;}
-footer>div{display: flex; position: absolute; left: 240px; top: 20px; }
-footer>div span{font-family: 'SBAggroB'; font-size: 20px; color: #F25774;}
-footer>div>div{margin-left: 20px;}
-footer>div a{font-size: 12px; color: #404040;}

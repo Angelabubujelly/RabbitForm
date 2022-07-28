@@ -1,4 +1,5 @@
 section{margin: 0 auto; width: 60vw;} p{padding: 5px;}
+input{outline: none;}
 
 .detailMenu>ul{display: flex; text-align: center;} /*상세페이지 메뉴 ul*/
 .detailMenu>ul>li{width: 15vw; padding: 10px 10px; align-items: center; border: solid #F25774 1px; border-radius: 10px 10px 0px 0px;} /*상세페이지 메뉴 li*/

@@ -1,0 +1,17 @@
+img[alt="더보기"]{width: 10px; vertical-align: middle; margin-left: 5px;}
+
+.writeWrap{margin-bottom: 40px;}
+.writeWrap>p{display: flex; justify-content: space-between; margin: 5px;}
+.writeWrap>p>span{font-family: 'SBAggroM'; font-size: 22px;}
+.writeWrap>p>a{color: #F25774;}
+.writeWrap>div{border: solid #909090 1px; border-radius: 10px; padding: 40px 60px;}
+
+#write{display: inline-block; height: 32px; overflow: hidden;  word-break:break-all; color: #909090; margin-right: 5%; font-size: 14px;}
+    
+    /*수정 삭제*/
+#witeList{display: flex; align-items: center;}
+#witeList>div:nth-of-type(2){margin: 20px 0px 20px 20px;}
+#witeList>div:nth-of-type(2)>a{display: block; cursor: pointer; font-family: 'SBAggroM'; margin: 5px 0px;}
+#witeList>div:nth-of-type(2)>a:hover{color: #F25774;}
+    /*게시글 마지막 bottom 없애기*/
+.writeWrap>div>div>div:last-of-type>div{border-bottom: none;}
