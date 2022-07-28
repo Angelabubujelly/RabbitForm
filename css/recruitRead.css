@@ -14,20 +14,22 @@ img[alt="프로필사진"]{width: 40px; height: 40px; object-fit: cover;}
 img[alt="좋아"]{width: 1vw; vertical-align: middle;}
 
 /*게시글 제목*/
-.boardContet>div{padding: 20px 0px; border-bottom: solid #909090 1px;}
+.boardContet>div{padding: 20px 0px;}
 .boardContet>div>div:nth-of-type(1){display: flex; justify-content: space-between; align-items: center;}
 .boardContet>div>div:nth-of-type(1)>div>p{font-family: 'SBAggroM'; font-size: 22px;}
 /*작성자 정보*/
 .boardContet>div>div:nth-of-type(2){margin-top: 20px;}
 .boardContet>div>div:nth-of-type(2)>img{vertical-align: middle; border-radius: 50px;}
 .boardContet>div>div:nth-of-type(2)>a{margin: 0px 7px; color: #909090;}
+.boardContet>hr{margin-top: 10px;  background:#C7C7C7;height:1px;border:0; }
 /* 모집폼 */
-.recruitFrm{display: flex; justify-content: center;  align-items: center; margin: 35px 0 40px 0; font-size: 0.9vw;}
-.frame{ border: 1px solid #C7C7C7; width: 40vw; border-radius: 10px; height: 18vw; display: flex; justify-content: space-around;align-items: center; padding: 20px 150px;}
-.frame>div>div{ width: 17.8333vw; height: 1.5625vw;align-items: center;display:flex; margin: 1vw;} 
+.recruitFrm{display: flex; justify-content: center;  align-items: center;margin-top: 10px; font-size: 0.9vw;}
+.frame{ border: 1px solid #C7C7C7; width: 100%; border-radius: 10px; height: 18vw; display: flex; justify-content: space-around;align-items: center; }
+.frame>div>div{ width: 15vw; height: 1.5625vw;align-items: center;display:flex; margin: 1vw;} 
 .frame>div>div>span{font-weight: bold; width: 6vw;font-size: 0.95vw;}
 .frame>div>div>div:nth-child(1) {font-weight: bold; width: 100px;}
-#first{margin-left: 4vw;}
+#first{margin-left: 8vw;}
+#second{margin-right: 8vw;}
 /*게시글 본문*/
 .boardContent{margin: 0 auto; width: 100%; }
 .boardContent>pre{text-align: center; margin-top: 20px;}

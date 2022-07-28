@@ -1,0 +1,49 @@
+section{width: 55vw;}
+input{ accent-color: #F25774; cursor: pointer;}
+
+/* 카테고리 */
+.smallNav{display: flex; justify-content: center; margin-top: 40px;}
+.smallNav>div{font-family: 'SBAggroM'; font-size: 24px; margin: 20px; }
+.smallNavCheck{color: #f25774; font-family: 'SBAggroB';} /* 선택된 카테고리 */
+.smallNavCheck>hr{width: 80%; margin: 0 auto; border-color: #f25774;}
+/* 글 상태 */
+.ing{background-color: #FFD74B; color: #fff; padding: 4px 6px; border-radius: 10px; font-size: 13px; vertical-align: middle;} /*인기*/
+.ed{background-color: #cdcdcd; color: #fff; padding: 4px 6px; border-radius: 10px; font-size: 13px; vertical-align: middle;} /*추천*/
+
+/*머릿말*/
+img[alt="모집중"], img[alt="마감"]{border-radius: 10px; margin: 0px 0px 0px 5px; vertical-align: middle;}
+.contentHead input[type=radio]{display: none;}
+.contentHead label{display: inline-block; cursor: pointer;}
+.contentHead input[type=radio]:checked+label>img{outline: solid  #ffb8c5 4px; width: fit-content; border-radius: 10px;}
+
+/* 글정보란 */
+img[alt="프로필사진"]{width: 40px; height: 40px; border-radius: 100px; object-fit: cover;}
+.boardContent>div:nth-of-type(2)>p>input {border: none;}
+.boardContent>div>hr{margin-top: 20px;  background:#c7c7c7;height:1px;border:0;}
+/*게시글 작성창*/
+    /*작성자 정보, 제목*/
+.boardContent>div:nth-of-type(2){display: flex; align-items: center; margin-top: 15px;}
+.boardContent>div:nth-of-type(2)>span:nth-of-type(2){margin: 0px 5px;}
+.boardContent>div:nth-of-type(2)>p{width: 99%; padding: 5px; border: solid #c7c7c7 1px; border-radius: 10px; vertical-align: middle;}
+.boardContent>div:nth-of-type(2)>p>input[type="text"]{width: 98%; padding: 5px; outline: none; }
+/* 모집폼 */
+.recruitFrm{  align-items: center;font-size: 0.9vw; display: flex;justify-content: center; margin-top: 30px; }
+.recruitFrm>div>div>div>input {outline: 1px solid #c7c7c7; height: 1.4vw; width: 18.5vw; border: none; border-radius: 5px;}
+.frame{ border: 1px solid #C7C7C7;  border-radius: 10px; height: 18vw; display: flex; ; align-items: center; }
+.frame>div>div{ height: 1.5625vw;align-items: center;display:flex; margin: 1vw;} 
+.frame>div>div>span{font-weight: bold; width: 6vw;font-size: 0.95vw;}
+.frame>div>div>div:nth-child(1) {font-weight: bold; width: 100px;}
+#first{padding-left: 1vw;}
+#second{padding-right: 1vw;}
+
+    /*게시글 입력란*/
+.writeContent>div{margin: 30px 0px; width: 96%; padding: 2%; height: 40vw; border: solid #c7c7c7 1px; border-radius: 10px;}
+.writeContent>div>textarea{ width: 100%; height: 100%; border: none; resize: none; outline: none;}
+    /*이미지 등록*/
+#postArea>p{display: flex;}
+#postArea>span{color: #909090; font-size: 12px; margin-left: 10.5vw;}
+#postArea>p>span{width: 10vw; vertical-align: top; text-align: center;}
+#postArea>p>span>span{color: #F25774;} /*(n/0) : n*/
+    /*게시글 등록 버튼*/
+#postArea>p>input[type=button]{margin-left: 1vw; width: 20%; height: 10.5vw; color: #8c8c8c; border: dotted #c7c7c7 2px; cursor: pointer; background-color: #fff; font-size: 20pt;}
+[value="등록"]{margin:3vw 10vw; width: 27.8vw; height: 3.6vw; border: none;  background-color: #F25774; border-radius: 40px; font-size: 2vw; color: #fff;}
