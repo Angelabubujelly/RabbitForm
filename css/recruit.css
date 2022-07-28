@@ -18,8 +18,16 @@ header>hr{display: none;}
 #search>button{background: none; border: unset;} /* 버튼스타일 */
 #search>button>img{width: 2vw;} /* 돋보기 */
 
-/*글쓰기버튼*/
-.writeDiv{display: flex;justify-content: flex-end;width: 89.5%;}
+
+
+    /*보기 태그 ex)인기순*/
+section>div:nth-of-type(2)>a>span{font-family: 'SBAggroM'; font-size: 26px; color: #F25774;}
+
+/*역할 태그, 글쓰기버튼*/
+.writeDiv{display: flex;justify-content: space-between;align-items: center; width: 79%;margin: 40px auto;}
+.writeDiv>a{font-family: 'SBAggroM';font-size: 26px; }
+.writeDiv>a>span{font-family: 'SBAggroM';color: #F25774;}
+.writeDiv>a>span>img {width: 1vw;}
 #write{width: 100px; height:38px;border: 1px solid #F25774; border-radius: 50px; background-color: #F25774;color:white;font-size: 1.1rem; }
 #write:hover{color: #F25774;background-color: white; font-size: 1.1rem;}
 
