@@ -40,9 +40,9 @@ img[alt^="별"]{width: 120px; vertical-align: middle;}
 .detailContent article:nth-of-type(2)>div>div:nth-of-type(1)>div:nth-of-type(2)>span{ color: #F25774; font-size: 22px; font-weight: bold;}
     /*장바구니 바로구매 버튼*/
 .detailContent article:nth-of-type(2)>div>div:nth-of-type(2){display: flex; justify-content: space-between; margin-top: 1.6vw}
-.detailContent article:nth-of-type(2)>div>div:nth-of-type(2)>input[type=button]{border-radius: 1vw; font-size: 1.6vw; width: 13.5vw; height: 3.7vw;}
+.detailContent article:nth-of-type(2)>div>div:nth-of-type(2)>input[type=button]{border-radius: 1vw; font-size: 1.6vw; width: 13.5vw; height: 3.7vw; cursor: pointer;}
 .detailContent article:nth-of-type(2)>div>div:nth-of-type(2)>input[type=button]:nth-of-type(1){border: solid #F4A1B1 2px; background-color: #fff; color: #F4A1B1;} /*장바구니 버튼*/
-.detailContent article:nth-of-type(2)>div>div:nth-of-type(2)>input[type=button]:nth-of-type(2){background-color: #F25774 ; color: #fff; font-family: 'SBAggroM';} /*바로구매 버튼*/
+.detailContent article:nth-of-type(2)>div>div:nth-of-type(2)>input[type=button]:nth-of-type(2){border: none; background-color: #F25774 ; color: #fff; font-family: 'SBAggroM';} /*바로구매 버튼*/
 
 /* 관련있는 제품 */
 #more{margin: 60px 0px;}
