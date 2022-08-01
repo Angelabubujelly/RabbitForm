@@ -2,12 +2,12 @@
 section{margin-top: 30px; margin-bottom: 70px;margin: 0 auto; width: 60vw;}
 p{padding: 5px;}
 #left{width: 48%; height: 90%;margin-left: 12vw;margin-bottom: 20px;}
-#right{ position: fixed; width:17vw; margin-left: 61vw; top: 10.2%;}
+#right{ position: fixed; width:17vw; left: 61vw; top: 10.2%;}
 .layout{display: flex;  border-radius: 18px;margin-top: 20px;}
 .layout p{padding: 10px;}
-.layout article:nth-of-type(1)>img{width: 18vw; height: 24.7vw;border-radius: 18px;} /*img*/
-.layout article:nth-of-type(2)>p{margin-left: 2vw;} /*축제정보 프레임*/
-.layout article:nth-of-type(2)>p:nth-of-type(1){font-size: 25px; font-family: 'SBAggroM';margin-bottom: 2vw;}/*축제 이름*/
+.layout >img{width: 18vw; height: 24.7vw;border-radius: 18px;} /*img*/
+.layout >p{margin-left: 2vw;} /*축제정보 프레임*/
+.layout >p:nth-of-type(1){font-size: 25px; font-family: 'SBAggroM';margin-bottom: 2vw;}/*축제 이름*/
 #layoutB>p>span:nth-child(1){width: 100px; display: inline-block; }
 #layoutB>p>span:nth-child(2){width: 13vw; display: inline-block;font-size: 15px;}
 
