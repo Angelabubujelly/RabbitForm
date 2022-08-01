@@ -12,7 +12,7 @@ img[alt="제품이미지"]{width: 100%; width: 24.5vw; height: 24.5vw; object-fi
 .detailContent article:nth-of-type(2) p {font-size: 18px;}
 .detailContent article:nth-of-type(2){width: 27.5vw; height: auto;}
 .detailContent article:nth-of-type(2)>p:nth-of-type(1){font-size: 16px; color: #909090;} /*첫번째 텍스트 - 회사명*/
-.detailContent article:nth-of-type(2)>p:nth-of-type(2)>span{font-size: 26px; font-family: 'SBAggroM';} /*두번째 텍스트 - 제품명*/
+.detailContent article:nth-of-type(2)>p:nth-of-type(2){font-size: 26px; font-family: 'SBAggroM';} /*두번째 텍스트 - 제품명*/
     /*별점, 주문 건 수 div*/
 .detailContent article:nth-of-type(2)>p:nth-of-type(3){margin: 1.5vw 0px; position: relative;}
 .detailContent article:nth-of-type(2)>p:nth-of-type(3)>span:nth-of-type(1){font-size: 22px;} /*별점 ex)5.0*/

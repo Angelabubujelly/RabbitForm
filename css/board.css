@@ -9,7 +9,9 @@ img[alt="프로필사진"]{width: 45px; height: 40px; object-fit: cover; border-
 img[alt="좋아"]{width: 1vw; vertical-align: middle;}
 
 /*kategorie*/
-.kategorie{margin: 40px;}
-.kategorie>ul{display: flex; justify-content: space-evenly;}
-.kategorie>ul>li{font-size: 20px;}
+.kategorie{width: 25%; margin: 40px auto; position: relative;}
+.kategorie>ul{display: flex; justify-content: space-between;}
+.kategorie>ul>li{font-size: 20px; text-align: center;}
 
+.kategorie>div:nth-child(2){width: 36%; height: 4px; margin-top: 15px; background-color: #f25774; }
+.kategorie>div:nth-child(3){width: 100%; height: 4px; background-color: #d9d9d9; position: absolute; bottom: 0; z-index: -2;}
