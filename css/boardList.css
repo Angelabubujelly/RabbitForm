@@ -12,7 +12,7 @@ section>div:nth-of-type(2)>button:hover{border: solid #F25774 1px; background-co
 .board>div:last-of-type{ border-bottom: none;} /*마지막 게시글 board bottm 없이*/
 .board>div>div:nth-of-type(1){display: flex; justify-content: space-between; align-items: center;}
 .board>div>div:nth-of-type(1)>div>p>a{font-family: 'SBAggroM'; font-size: 22px;} /*게시글 제목*/
-.board>div>div:nth-of-type(1)>div>div>a{display: inline-block; height: 32px; overflow: hidden;  word-break:break-all; color: #909090; margin-right: 5%;} /*게시글 미리보기 텍스트*/
+.board>div>div:nth-of-type(1)>div>div>a{display: inline-block; height: 36px; overflow: hidden;  word-break:break-all; color: #909090; margin-right: 5%;} /*게시글 미리보기 텍스트*/
 .board>div>div:nth-of-type(1)>div>p{margin-bottom: 20px;} /*게시글 제목과 미리보기 텍스트 간격*/
 img[alt="미리보기"]{width: 125px; height: 125px; object-fit: cover; border-radius: 10px;} /*게시글 이미지 미리보기*/
     /*작성자 정보*/
