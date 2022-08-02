@@ -16,11 +16,13 @@ img[alt="잡담"], img[alt="추천"]{border-radius: 10px; margin: 0px 0px 0px 5p
 #postArea>div:nth-of-type(3){margin: 20px 0px; width: 96%; padding: 2%; height: 40vw; border: solid #909090 1px; border-radius: 10px;}
 #postArea>div:nth-of-type(3)>textarea{ width: 100%; height: 100%; border: none; resize: none; outline: none;}
     /*이미지 등록*/
-#postArea>p{display: flex;}
+#postArea>div:nth-of-type(4){display: flex;}
+#postArea>div:nth-of-type(4)>div{width: 10vw; text-align: center;}
+#postArea>div:nth-of-type(4)>div>span{color: #F25774;}
+#postArea>div:nth-of-type(4)>[type=button]{margin-left: 1vw; width: 20%; height: 10.2vw; border: dotted #909090 2px; cursor: pointer; background-color: #fff; font-size: 20pt;}
 #postArea>span{color: #909090; font-size: 12px; margin-left: 10.5vw;}
-#postArea>p>span{width: 10vw; vertical-align: top; text-align: center;}
+
 #postArea>p>span>span{color: #F25774;} /*(n/0) : n*/
     /*게시글 등록 버튼*/
-#postArea>p>input[type=button]{margin-left: 1vw; width: 20%; height: 10.5vw; border: dotted #909090 2px; cursor: pointer; background-color: #fff; font-size: 20pt;}
 [value="등록"]{margin:3vw 10vw; width: 27.8vw; height: 3.6vw; background-color: #F25774; border-radius: 40px; font-size: 2vw; color: #fff;}
 

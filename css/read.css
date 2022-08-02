@@ -4,11 +4,9 @@
 .boardContet>div>div:nth-of-type(1)>div>p{font-family: 'SBAggroM'; font-size: 22px;}
     /*작성자 정보*/
 .boardContet>div>div:nth-of-type(2){margin-top: 20px;}
-.boardContet>div>div:nth-of-type(2)>img{vertical-align: middle;}
-.boardContet>div>div:nth-of-type(2)>a{margin: 0px 7px; color: #909090;}
     /*게시글 본문*/
 .boardContent{margin: 0 auto; width: 100%;}
-.boardContent>pre{text-align: center;  overflow: hidden; overflow-wrap: break-word;  white-space: break-spaces;}
+.boardContent>pre{text-align: center;  overflow: hidden; overflow-wrap: break-word; white-space: break-spaces;}
 .boardContent>pre>img{width: 100%;}
 
 /*댓글*/
