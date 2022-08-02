@@ -1,0 +1,11 @@
+section{margin: 0 auto; width: 55vw;} p{padding: 5px;}
+input{outline: none;}
+
+.detailMenu>ul{display: flex; text-align: center;} /*상세페이지 메뉴 ul*/
+.detailMenu>ul>li{width: 15vw; padding: 10px 10px; align-items: center; border: solid #F25774 1px; border-radius: 10px 10px 0px 0px;} /*상세페이지 메뉴 li*/
+.detailMenu>ul>li a{font-size: 20px;} /*상세페이지 메뉴 li font size*/
+.detailMenu>ul>li:nth-of-type(2)>img[alt=말풍선아이콘]{width: 3.2vw; position: absolute;} /*상세페이지 메뉴 2번째 li new말풍선 아이콘*/
+
+/*현재 페이지 style - 페이지 마다 있어야합니다. 해당하는 페이지에 맞춰 li:nth-of-type() 숫자 변경*/
+/*.detailMenu>ul>li:nth-of-type(1){border-bottom: none;}
+.detailMenu>ul>li:nth-of-type(1) a{font-family: 'SBAggroM'; color: #F25774;}*/

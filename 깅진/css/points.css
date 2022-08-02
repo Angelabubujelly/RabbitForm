@@ -1,0 +1,10 @@
+/*상세메뉴-유의사항*/
+    /*현재 페이지*/
+.detailMenu>ul>li:nth-of-type(3){border-bottom: none;}
+.detailMenu>ul>li:nth-of-type(3) a{font-family: 'SBAggroM'; color: #F25774;} 
+
+.points div{padding: 20px;}
+.points div>h3{margin-top: 1.5vw;} /*유의사항 소제목*/
+.points div>p{color: #909090;} /*유의사항 내용*/
+.points div p span{font-size: 16px;}
+.points div>p:first-of-type{margin-top: 0.8vw;} /*유의사항 소제목 다음 텍스트*/

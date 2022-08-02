@@ -1,0 +1,6 @@
+/*상세메뉴-상품정보*/
+    /*현재 페이지*/
+.detailMenu>ul>li:nth-of-type(1){border-bottom: none;}
+.detailMenu>ul>li:nth-of-type(1) a{font-family: 'SBAggroM'; color: #F25774;}
+
+img[alt="상품정보 이미지"]{width: 100%;}

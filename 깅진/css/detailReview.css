@@ -1,0 +1,21 @@
+/*상세메뉴-유의사항*/
+    /*현재 페이지*/
+.detailMenu>ul>li:nth-of-type(2){border-bottom: none;}
+.detailMenu>ul>li:nth-of-type(2) a{font-family: 'SBAggroM'; color: #F25774;} 
+
+/*리뷰 list*/
+.detailReview{font-size: 14px;}
+.detailReview>div{padding: 40px 0px; border-bottom: solid #909090 1px;}
+.detailReview>div>p:nth-of-type(1){font-size: 22px; font-family: 'SBAggroM'; display: flex; justify-content: space-between;} /*리뷰 제목*/
+    /*재구매 횟수*/
+.detailReview>div>p:nth-of-type(2)>span{color: #F25774; font-weight: bold;}
+    /*별점*/
+.detailReview>div>p:nth-of-type(3)>img:nth-of-type(1){position: absolute;}
+    /*제품 회사이름*/
+.detailReview>div>p:nth-of-type(4){color: #909090; font-size: 13px;}
+    /*리뷰 본문*/
+.detailReview>div>p:nth-of-type(5){font-size: 16px;}
+
+img[alt="좋아"]{width: 1vw; vertical-align: middle;}
+img[alt="리뷰이미지"]{width: 24.5%; margin-right: 0.5%;}
+img[alt^="별"]{width: 120px; vertical-align: middle;}

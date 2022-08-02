@@ -1,0 +1,7 @@
+/* 페이지 번호 */
+#pageCount{display: flex; margin: 80px 0; justify-content: center;}
+#pageCount>div:nth-child(1)>a:nth-child(1), #pageCount>div:nth-child(3)>a:nth-last-child(1){color: #7e7e7e;}
+#pageCount>div:nth-child(3)>a:nth-child(1), #pageCount>div:nth-child(1)>a:nth-last-child(1){font-family: 'SBAggroM';}
+#pageClick{color: #f25774; font-family: 'SBAggroM';}
+#pageCount>p{margin: 0 3vw;}
+#pageCount>p>a{padding: 0 1vw;}

@@ -1,0 +1,23 @@
+img[alt="더보기"]{width: 10px; vertical-align: middle; margin-left: 5px;}
+
+.writeWrap{margin-bottom: 40px;}
+.writeWrap>p{display: flex; justify-content: space-between; margin: 5px;}
+.writeWrap>div{border: solid #909090 1px; border-radius: 10px; padding: 40px 60px;}
+
+.writeWrap>p>span{font-family: 'SBAggroM'; font-size: 22px;}/*분류 style*/
+.writeWrap>p>a{color: #F25774;} /*더보기*/
+#write{display: inline-block; height: 32px; overflow: hidden;  word-break:break-all; color: #909090; margin-right: 5%; font-size: 14px;} /*div에 맞게*/
+    
+    /*수정 삭제*/
+#writeList{display: flex; align-items: center; justify-content: space-between;}
+#writeList>div:nth-of-type(2){margin: 20px 0px 20px 20px;}
+#writeList>div:nth-of-type(2)>a{display: block; cursor: pointer; font-family: 'SBAggroM'; margin: 5px 0px;}
+#writeList>div:nth-of-type(2)>a:hover{color: #F25774;}
+    /*게시글 마지막 bottom 없애기*/
+.writeWrap>div>div>div:last-of-type>div{border-bottom: none;}
+#myComment>div>#writeList:last-of-type>div:nth-of-type(1){border-bottom: none;} /*댓글*/
+#myReview>div>div:last-of-type>div>div:nth-of-type(1){border-bottom: none;} /*리뷰*/
+
+    /*my리뷰*/
+#myComment .boardComment{width: 100%; border-bottom: solid #909090 1px; padding: 20px 0px; margin: 0px;}
+#myComment #write{height: 50px;}
