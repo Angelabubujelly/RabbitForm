@@ -10,7 +10,7 @@ section>div:nth-of-type(2)>button:hover{border: solid #F25774 1px; background-co
 /*게시글 목록*/
 .board>a>div{padding: 20px 0px; border-bottom: solid #909090 1px;}
     /*마지막 게시글 board bottm 없이*/
-.board>a:last-of-type{ border-bottom: none;}
+.board>a:last-of-type>div{border-bottom: none;}
 .board>a>div>div:nth-of-type(1){height: 131px; display: flex; justify-content: space-between; align-items: center;}
     /*게시글 제목*/
 .board>a>div>div:nth-of-type(1)>div>p{font-family: 'SBAggroM'; font-size: 22px;}
