@@ -14,12 +14,12 @@ p{padding: 5px;}
 #layoutB>p>span:nth-child(2){width: 13vw; font-size: 15px;}
 
 /*유의사항*/
-.contentE div{padding: 15px;}
-.contentE div>h1{margin-top: 1.5vw;margin-left: 5px; font-family: 'SBAggroB';font-size: 25px;}
-.contentE div>h3{margin-top: 1vw;margin-left: 5px;} /*유의사항 소제목*/
-.contentE div>p{color: #909090;} /*유의사항 내용*/
-.contentE div p span{font-size: 16px;}
-.contentE div>p:first-of-type{margin-top: 0.8vw;} /*유의사항 소제목 다음 텍스트*/
+.contentE {padding: 15px;}
+.contentE h1{margin-top: 1.5vw;margin-left: 5px; font-family: 'SBAggroB';font-size: 25px;}
+.contentE h3{margin-top: 1vw;margin-left: 5px;} /*유의사항 소제목*/
+.contentE p{color: #909090;} /*유의사항 내용*/
+.contentE p span{font-size: 16px;}
+.contentE p:first-of-type{margin-top: 0.8vw;} /*유의사항 소제목 다음 텍스트*/
 
 /* 이용정보들 네비게이션 */
 .contentC{margin-top: 27px;}
