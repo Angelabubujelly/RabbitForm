@@ -28,12 +28,16 @@
     </header>
     <section>
          <!-- 카테고리 -->
-         <article class="smallNav">
-            <div>자유게시판</div>
-            <div class="smallNavCheck">모집<hr></div>
-        </article>
+         <div class="kategorie">
+            <ul>
+                <li>자유게시판</li>
+                <li>모집</li>
+            </ul>
+            <div></div>
+            <div></div>
+        </div>
         <!-- 본문 -->
-        <article class="boardContent" id="titleArea">
+        <article class="boardContent" id="postArea">
             <div class="contentHead">
                 <input type="radio" name="contentHead" id="chat">
                 <label for="chat"><img src="img/ing.png" alt="모집중"></label>
@@ -45,7 +49,6 @@
                 <span>하치와레</span>
                 <p><input type="text"></p>
             </div>
-            </article>
             <article class="recruitFrm">
                 <div class="frame">
                     <div class="row" id="first">
@@ -87,18 +90,20 @@
                     </div>
                 </div>
                 </article>
-            <article class="writeContent" id="postArea">
             <div>
                 <textarea>
                 </textarea>
             </div>
-            <p>
-                <span>추가이미지<br>(<span>0</span>/4)</span>
-                <input type="button" value="+">
-                <input type="button" value="+">
-                <input type="button" value="+">
-                <input type="button" value="+">
-            </p>
+            <div>
+                <div>
+                    추가이미지<br>
+                    (<span>0</span>/4)
+                </div>
+                    <input type="button" value="+">
+                    <input type="button" value="+">
+                    <input type="button" value="+">
+                    <input type="button" value="+">
+            </div>
             <span>※ jpg, jpge, png, bmp 형식의 이미지만 등록 가능합니다.</span>
         </article>
         <input type="button" value="등록">
