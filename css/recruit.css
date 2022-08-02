@@ -32,7 +32,7 @@ section>div:nth-of-type(2)>a>span{font-family: 'SBAggroM'; font-size: 26px; colo
 #write:hover{color: #F25774;background-color: white; font-size: 1.1rem;}
 
 /* 글목록 */
-#listFrame {width: 79%; margin: 40px auto;border: 1px solid #C7C7C7; border-radius: 10px; font-size: 0.8rem}
+.frame {width: 79%; margin: 40px auto;border: 1px solid #C7C7C7; border-radius: 10px; font-size: 0.8rem}
 .top {height: 3.5vw;border-bottom: 1px solid #C7C7C7; display: flex; justify-content: space-between; align-items: center;}
 .block {font-weight: bold;}
 
@@ -41,7 +41,9 @@ section>div:nth-of-type(2)>a>span{font-family: 'SBAggroM'; font-size: 26px; colo
 .contentDate{margin-right: 20px; color: #6f6f6f; font-size: 0.5rem }
 .category{color: #F25774; margin: 0 5px;}
 .bottom{display: flex; height: 3.5vw; justify-content: space-between;align-items: center; margin-left: 10px;}
-.textPink {color:#F25774; margin: 0 8px 0 5px; }
+.bottom>div:nth-of-type(1) {color: #F25774;margin: 0 10px;}
+.bottom>div>span{margin-right: 10px;}
+
 #icon {width: 2.5vw; border-radius: 50px; margin-right: 10px;}
 .user {display: flex; align-items: center; margin-right: 20px;}
 

@@ -27,14 +27,14 @@ img[alt="프로필사진"]{width: 40px; height: 40px; border-radius: 100px; obje
 .boardContent>div:nth-of-type(2)>p{width: 99%; padding: 5px; border: solid #c7c7c7 1px; border-radius: 10px; vertical-align: middle;}
 .boardContent>div:nth-of-type(2)>p>input[type="text"]{width: 98%; padding: 5px; outline: none; }
 /* 모집폼 */
-.recruitFrm{  align-items: center;font-size: 0.9vw; display: flex;justify-content: center; margin-top: 30px; }
-.recruitFrm>div>div>div>input {outline: 1px solid #c7c7c7; height: 1.4vw; width: 18.5vw; border: none; border-radius: 5px;}
-.frame{ border: 1px solid #C7C7C7;  border-radius: 10px; height: 18vw; display: flex; ; align-items: center; }
+.recruitFrm{margin-top: 30px; height: 18vw;}
+.frame{ border: 1px solid #C7C7C7;  border-radius: 10px; height: 18vw; display: flex; justify-content: space-evenly;align-items: center; }
 .frame>div>div{ height: 1.5625vw;align-items: center;display:flex; margin: 1vw;} 
-.frame>div>div>span{font-weight: bold; width: 6vw;font-size: 0.95vw;}
+.frame>div>div>span{font-weight: bold; width: 7vw;font-size: 17px;}
 .frame>div>div>div:nth-child(1) {font-weight: bold; width: 100px;}
-#first{padding-left: 1vw;}
-#second{padding-right: 1vw;}
+#first{padding-left: 1vw; height: 16vw;}
+#second{padding-right: 1vw;height: 16vw;vertical-align: middle; }
+.item>input {outline: 1px solid #c7c7c7; height: 1.4vw; width: 16vw; border: none; border-radius: 5px;}
 
     /*게시글 입력란*/
 .writeContent>div{margin: 30px 0px; width: 96%; padding: 2%; height: 40vw; border: solid #c7c7c7 1px; border-radius: 10px;}
@@ -46,4 +46,4 @@ img[alt="프로필사진"]{width: 40px; height: 40px; border-radius: 100px; obje
 #postArea>p>span>span{color: #F25774;} /*(n/0) : n*/
     /*게시글 등록 버튼*/
 #postArea>p>input[type=button]{margin-left: 1vw; width: 20%; height: 10.5vw; color: #8c8c8c; border: dotted #c7c7c7 2px; cursor: pointer; background-color: #fff; font-size: 20pt;}
-[value="등록"]{margin:3vw 10vw; width: 27.8vw; height: 3.6vw; border: none;  background-color: #F25774; border-radius: 40px; font-size: 2vw; color: #fff;}
+[value="등록"]{margin:3vw 10vw; width: 27.8vw; height: 3.6vw; line-height: 3.6vw; border: none;  background-color: #F25774; border-radius: 45px; font-size: 30px; color: #fff;}

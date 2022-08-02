@@ -17,7 +17,7 @@
 .frmFrame{display: flex;justify-content: center;} /*검색창 프레임*/
 #frm { height: 140px; width:70vw; border : 1px solid #C7C7C7; border-radius: 10px;} /*날짜검색 프레임*/
 .schedule_date {display: flex; justify-content: center;align-items: center;  height: 70px; width:70vw;border-bottom : 1px solid #C7C7C7; }/*날짜검색 내부 스타일*/
-.schedule_date a {margin: 0 25px;} /*고양이 발 위치조정*/
+.schedule_date img {margin: 0 25px;} /*고양이 발 위치조정*/
 #period1 {border: none; font-weight: bold; font-size: 30px; width: 190px; } /*날짜 스타일지정*/
 .schedule_check{width: 100%;display: flex; align-items: center; height: 70px; } /*구분과 검색어 분리*/
 .schedule_check >div:nth-child(1) {width: 50%;border-right: 1px solid #C7C7C7;} /*구분선 위치 지정*/
@@ -29,14 +29,12 @@ input[type=checkbox] {width: 1.25em; height: 1.25em; accent-color: #F25774; } /*
 input[type="text"]{outline:none; width:25vw} /*인풋창 테두리 제거*/
 .write{display: flex; justify-content: space-between; padding: 0 30px; width: 50%;} /*입력란 크기 지정*/
 .write input {border: none;} /*input 테두리 제거*/
-.write button {border: none; background-color: rgba(255, 255, 255, 0);  cursor: pointer;position: relative;}/* 버튼 투명하게 하고픈데 쩝 */
-.write button:visited {cursor: pointer;} /*커서 포인터효과*/
+.write img{cursor: pointer;} /*커서 포인터효과*/
 
 /* 정렬방법 */
 .orderBy {display: flex; margin: 50px 0 50px 0;}
-.orderBy>div{justify-content:space-around;}
-.orderBy>div>span>a{border-radius: 18px; padding: 0.3125vw 0.8854vw; text-decoration: none;background-color: #F25774;color: white; }
-
+.orderBy>a{border-radius: 18px; padding: 0.3125vw 0.8854vw; text-decoration: none;background-color: #F25774;color: white; }
+.orderBy>a:nth-of-type(2){margin-left: 3px;}
 /* 페이지 번호 */
 #pageCount{display: flex; margin: 80px 0; justify-content: center;}
 #pageCount>div:nth-child(1)>a:nth-child(1), #pageCount>div:nth-child(3)>a:nth-last-child(1){color: #7e7e7e;}

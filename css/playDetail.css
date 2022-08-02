@@ -1,15 +1,17 @@
 /* 레이아웃 설정 */
 section{margin-top: 30px; margin-bottom: 70px;margin: 0 auto; width: 60vw;}
 p{padding: 5px;}
-#left{width: 48%; height: 90%;margin-left: 12vw;}
-#right{ position: fixed; width:17vw; margin-left: 61vw; top: 10.2%;}
+#left{width: 48%; height: 90%;margin-left: 12vw;margin-bottom: 20px;}
+#right{ position: fixed; width:17vw; left: 61vw; top: 10.2%;}
 .layout{display: flex;  border-radius: 18px;margin-top: 20px;}
 .layout p{padding: 10px;}
-.layout article:nth-of-type(1)>img{width: 18vw; height: 24.7vw;border-radius: 18px;} /*img*/
-.layout article:nth-of-type(2)>p{margin-left: 2vw;} /*축제정보 프레임*/
-.layout article:nth-of-type(2)>p:nth-of-type(1){font-size: 25px; font-family: 'SBAggroM';margin-bottom: 2vw;}/*축제 이름*/
-#layoutB>p>span:nth-child(1){width: 100px; display: inline-block; }
-#layoutB>p>span:nth-child(2){width: 13vw; display: inline-block;font-size: 15px;}
+.layout >img{width: 18vw; height: 24.7vw;border-radius: 18px;} /*img*/
+#layoutB {margin-left: 40px; width: 100%;}
+#layoutB >p{ height: 27px; display: flex; align-items: center;}
+#layoutB>p:nth-of-type(1){font-size: 25px; font-family: 'SBAggroM';margin-bottom: 2vw;}/*축제 이름*/
+#layoutB>p>span {display: inline-block;}
+#layoutB>p>span:nth-child(1){padding-top: 2px; width: 80px;}
+#layoutB>p>span:nth-child(2){width: 13vw; font-size: 15px;}
 
 /* 이용정보들 네비게이션 */
 .contentC{margin-top: 27px;}
@@ -22,7 +24,8 @@ p{padding: 5px;}
 
 /* 달력 */
 .calendar {border: 1px solid #D1D1D1;  border-radius: 18px; width: 315px; margin-top: 20px;height:430px; border-radius: 20px;padding: 24px;}
-#viewingDate{margin: 5px 10px; font-family: 'SBAggroM';}
+#viewingDate{margin: 5px 10px; font-family: 'SBAggroM';font-size: 15px;}
+#ticketNum{margin: 5px 10px; font-family: 'SBAggroM';font-size: 15px;}
 .month-indicator  {display: flex; justify-content: center;margin: 20px 0;font-size: 15px;} 
 .arrow{margin: 0 30px; color: #adadad;  display: flex; text-align: center;}
 .day-of-week {display: flex; background-color: #eeeeee; border-radius: 10px; height: 30px;font-size: 15px; justify-content: space-around; text-align: center;}/*요일 글씨*/
@@ -35,7 +38,6 @@ button {border:none;width: 30px; height: 30px; justify-content: center; margin: 
 .times>span{color: #F25774; height: 15px;}
 .times>span:nth-child(2){margin-left: 10px;}
 .table_row{margin: 20px 0;}
-#viewingDate{font-size: 15px;}
 .booking{color: white; background-color: #F25774; border: 1px solid #F25774;  display: inline-block; width: 315px; height: 38px; line-height: 38px;  vertical-align: middle; font-family: 'SBAggroM'; font-size: 22px; justify-content: center; text-align: center; padding: 5px 24px 0;  border-radius: 15px;}
 
 
