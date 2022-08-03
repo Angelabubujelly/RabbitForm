@@ -2,6 +2,7 @@ img[alt="더보기"]{width: 10px; vertical-align: middle; margin-left: 5px;}
 
 .writeWrap{margin-bottom: 40px;}
 .writeWrap>p{display: flex; justify-content: space-between; margin: 5px;}
+.writeWrap>p>a{font-size: 16px;}
 .writeWrap>div{border: solid #909090 1px; border-radius: 10px; padding: 40px 60px;}
 
 .writeWrap>p{font-family: 'SBAggroM'; font-size: 22px;}/*분류 style*/
