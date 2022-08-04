@@ -1,0 +1,53 @@
+/*판매관리-신규주문*/
+.management_wrap>div>p>span{padding: 2px 12px; background-color: #F25774; border-radius: 8px; font-size: 8pt; color: #fff; vertical-align: middle;}
+.management_wrap span{color: #F25774; font-weight: bold;}
+.management_wrap{margin-bottom: 40px;}
+.management_wrap{border: solid #909090 1px; width: 100%;}
+.management_wrap>div>p{padding: 15px;}
+.management_wrap>div>p:first-of-type{font-size: 13pt;}
+.management_wrap select{width: 200px; height: 25px; outline:none; border: solid #909090 1px;} /*select style*/
+.management_wrap>p{margin: 10px 0px;}
+.management_wrap>div>p>select{margin-left: 60px}
+.management_wrap>p>select{margin-left: 30px;}
+    /*div table*/
+/*.List>div:nth-of-type(2){display: table; width: 100%; border: solid #909090 1px; border-top: none; text-align: center; font-size: 10pt;}
+.List>div>div:first-of-type{background-color: #F4F4F4;}
+.List>div>div:nth-of-type(1)~div>div{border-right: solid #909090 1px; border-top: solid #909090 1px;}
+.List>div>div:nth-of-type(1)~div>div:last-of-type{border-right: none; border-top: solid #909090 1px;}     
+.List>div>div{display: table-row;}
+.List>div>div>div{display: table-cell; padding: 8px 16px; vertical-align: middle;}
+.List>div>div>div:first-of-type{width: 20px;}
+#List>div>div>div:nth-of-type(4){width: 30%;}
+#List>div>div>div:nth-of-type(10){width: 20%;}
+input[type=text]{text-align: center;}
+input[type=checkbox]{width: 18px; height: 18px; vertical-align: middle;}
+.List input[type=button]{width: 100px; height: 25px; border: solid #909090 1px;}
+*/
+/*목록*/
+#List:nth-of-type(2)>div>div>div:nth-of-type(4){width: 20%;}
+#List:nth-of-type(2)>div>div>div:nth-of-type(6){width: 15%;}
+#List:nth-of-type(2)>div>div>div:nth-of-type(7){width: 15%;}
+#List:nth-of-type(2)>div>div>div:nth-of-type(8){width: 15%;}
+#List:nth-of-type(2)>div>div>div:nth-of-type(10){width: 20%;}
+#List:nth-of-type(2)>div>div>div:nth-of-type(11){width: 15%;}
+
+
+.management_wrap>div:first-of-type>div{display: flex; justify-content: space-between; margin: 5px 12px;}
+.management_wrap>div:first-of-type>div>div{display: flex; align-items: center;}
+.management_wrap>div:first-of-type>div>div>select{margin-left: 10px;}
+
+.order_list_wrap input[type=checkbox]{vertical-align: middle;}
+.order_list_wrap>div{display: table; text-align: center;}
+.order_list_wrap>div>div{display: table-cell;}
+.order_list_wrap>div>div>span{padding: 0.25rem 0rem; line-height: 1.25rem; font-size: 15px;}
+
+.order_list_wrap>div>div:nth-of-type(1){width: 5%;}
+.order_list_wrap>div>div:nth-of-type(2){width: 15%;}
+.order_list_wrap>div>div:nth-of-type(3){width: 10%;}
+.order_list_wrap>div>div:nth-of-type(4){width: 10%;}
+.order_list_wrap>div>div:nth-of-type(5){width: 10%;}
+.order_list_wrap>div>div:nth-of-type(6){width: 10%;}
+.order_list_wrap>div>div:nth-of-type(7){width: 10%;}
+.order_list_wrap>div>div:nth-of-type(8){width: 10%;}
+.order_list_wrap>div>div:nth-of-type(9){width: 10%;}
+.order_list_wrap>div>div:nth-of-type(10){width: 10%;}
