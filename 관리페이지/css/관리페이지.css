@@ -7,7 +7,7 @@
 
 a,p,span{ font-size: 11pt; text-decoration: none;  overflow: hidden;}
 ul li {list-style: none;}
-input{outline: none; border: none; accent-color: #F25774; cursor: pointer;}
+/*input{outline: none; border: none; accent-color: #F25774; cursor: pointer;}*/
 
 header{display: flex; justify-content: space-between; align-items: center; padding: 0px 20px; height: 2.5rem; background-color: #F25774;  word-break:keep-all;}
 header>div>a{min-width:fit-content; font-size: 9pt; color: #fff;}
