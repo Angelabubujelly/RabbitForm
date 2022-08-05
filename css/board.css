@@ -1,4 +1,4 @@
-input{outline: none; border: none;}
+input{outline: none;}
 /*게시글 말머리*/
 .chat{border: solid #F25774 1px; color: #F25774; padding: 3px 8px; border-radius: 10px; font-size: 13px; font-family: 'SBAggroM';} /*잡담*/
 .popularity{background-color: #FFD74B; color: #fff; padding: 3px 8px; border-radius: 10px; font-size: 13px;} /*인기*/

@@ -1,0 +1,14 @@
+.management_wrap{border: solid #909090 1px; border-bottom: none; margin-bottom: 40px;}
+.management_wrap>p{padding: 10px; font-size: 18px; border-bottom: solid #909090 1px;}
+.management_wrap>div:nth-of-type(1){padding: 10px; display: flex; justify-content: space-between; align-items: center; text-align: center; border-bottom: solid #909090 1px;}
+/*카테고리선택 style*/
+.category_list{border: solid #909090 1px; margin-bottom: 40px;}
+.category_list>p{padding: 10px; font-size: 18px; border-bottom: solid #909090 1px;}
+.category_list>div:first-of-type{padding: 10px 0px 0px 10px; display:flex;}
+.category_list>div:first-of-type>div{padding: 0.35rem 1rem; border: solid #909090 1px;}
+.category_list>div:nth-of-type(2){margin: -1px 10px 10px 10px; padding: 20px 10px; border: solid #909090 1px;}
+    /*카테고리 선택*/
+.category_list>div:first-of-type>div:nth-of-type(1){border-bottom: solid #fff 1px;}
+/*radio style*/
+input[type=radio]{margin-right: 5px; cursor: pointer; accent-color: #F25774; vertical-align: middle;}
+

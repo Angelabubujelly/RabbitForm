@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/관리페이지.css">
+    <link rel="stylesheet" href="css/product_registration copy.css">
+    <style>
+        .layout nav>ul>li>ul>li:nth-last-of-type(1){color: #F25774;}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div><a herf="#">RABBIT FORM</a></div>
+        <div>    
+            <a href="#">내정보</a>
+            <a href="#">로그아웃</a>
+        </div>
+    </header>
+    <div class="layout">
+       <nav>
+            <ul>
+                <li>상품관리
+                    <ul>
+                        <li>상품조회/수정</li>
+                        <li>상품등록</li>
+                    </ul>
+                </li>
+                <li>판매관리</li>
+                <li>문의관리</li>
+            </ul>
+       </nav>
+       <section>
+            <h3>상품등록</h3>
+            <article class="category_list">
+                    <p>카테고리 선택 <span>필수</span></p>
+                    <div>
+                        <div>
+                            <a>미용</a>
+                        </div>
+                        <div>
+                            <a>관람예술</a>
+                        </div>
+                        <div>
+                            <a>체험예술</a>
+                        </div>
+                    </div>
+                    <div>
+                        <input type="radio" name="select" value="" checked>클렌징&ensp;
+                        <input type="radio" name="select" value="">스킨&로션&ensp;
+                        <input type="radio" name="select" value="">크림&에센스&ensp;
+                        <input type="radio" name="select" value="">선크림&ensp;
+                        <input type="radio" name="select" value="">워시&ensp;
+                        <input type="radio" name="select" value="">피부미용&ensp;
+                        <input type="radio" name="select" value="">색조화장품&ensp;
+                    </div>
+            </article>
+            <article class="management_wrap">
+                    <p>상품명 <span>필수</span> <span>판매 상품과 직접 관련이 없는 상품명, 스팸성 키워드 입력 시 관리자에 의해 판매 금지될 수 있습니다.</span></p>
+                    <p><input type="text"><span>0</span>/100</p>
+            </article>
+            <article class="category_list">
+                    <p>판매가 <span>필수</span></p>
+                    <p>
+                        판매가
+                        <input type="text" placeholder="숫자만 입력">
+                        원
+                    </p>
+                    <p>
+                        할인
+                        <input type="button" value="설정">
+                        <input type="button" value="설정안함">
+                    </p>
+            </article>
+            <article class="category_list">
+                    <p>재고수량 <span>필수</span></p>
+                    <p><input type="text" placeholder="숫자만 입력">개</p>
+            </article>
+            <article class="category_list">
+                    <p>옵션 <span>필수</span> <span>판매 상품과 직접 관련이 없는 키워드, 스팸성 키워드 입력 시 관리자에 의해 판매 금지될 수 있습니다.</span></p>
+                    <p>
+                        정렬순서
+                        <select>
+                                <option>등록순</option>
+                                <option>까꿍</option>
+                        </select>
+                    </p>
+                    <p>
+                        키워드입력
+                        <input type="text" placeholder="검색 키워드 입력">
+                        <input type="button" value="추가">
+                    </p>
+            </article>
+            <article class="category_list">
+                    <p>상품이미지 <span>필수</span> <span>판매 상품과 직접 관련이 없는 이미지, 노출이 있는 이미지 등록 시 관리자에 의해 판매 금지될 수 있습니다.</span></p>
+                    <p>
+                        대표이미지
+                        <input type="button" value="+">
+                    </p>
+                    <p>
+                        추가이미지
+                        <input type="button" value="+">
+                    </p>
+            </article>
+            <article class="category_list">
+                    <p>상품설명 <span>필수</span> <span>판매 상품과 직접 관련이 없는 내용, 스팸성 내용 입력 시 관리자에 의해 판매 금지될 수 있습니다.</span></p>
+                    <p>
+                        <textarea>
+                        </textarea>
+                    </p>
+                    <p>
+                        <input type="button" value="이미지추가">
+                        <span>※ jpg, jpge, png, bmp 형식의 이미지만 등록 가능합니다.</span>
+                    </p>
+            </article>
+            <article class="category_list">
+                    <p>배송 <span>필수</span></p>
+                    <p>
+                        배송비
+                        <input type="text" placeholder="숫자만 입력">
+                        원
+                    </p>
+                    <p>제주/도서산간 추가배송비
+                        <input type="button" value="설정">
+                        <input type="button" value="설정안함">
+                    </p>
+            </article>
+            <div>
+                <a>취소</a>
+                <a>저장하기</a>
+            </div>
+       </section>
+    </div>
+    <footer>
+        <div>
+            <div>
+                <span>RABBIT FORM</span>
+            </div>
+            <div>
+                <a> 상호명 : RABBIT FORM
+                    <br>RABBIT FORM은 개별 판매자가 상품을 판매하는 오픈마켓이며 RABBIT FORM은 통신판매 중개자로 거래 당사자가 아니므로, 판매자가 등록한 상품정보 및 거래 등에 대해 일체 책임을 지지 않습니다.
+                    <br>단, RABBIT FORM이 판매자로 등록 판매한 상품의 경우는 판매자로서 책임을 부담합니다. &emsp; Copyright © 2022 RABBIT FORM. All rights reserved.
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
